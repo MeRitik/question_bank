@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "questions_validated": 150,
+    "errors": 0,
+    "warnings": 2,
+    "pages_recorded": 150,
+    "source_question_ids_present": 150,
+    "duplicate_source_question_ids": 0,
+    "option_count_distribution": {
+      "4": 150
+    }
+  },
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "suspicious_text_marker",
+      "message": "option C contains suspicious extraction marker '<br'.",
+      "question_number": 145,
+      "source_question_id": "4335764511",
+      "page": 52
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_question_text",
+      "message": "Question text appears 2 times.",
+      "question_number": 24,
+      "source_question_id": "4335766423",
+      "page": 12
+    }
+  ]
+}
