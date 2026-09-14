@@ -1,19 +1,35 @@
-Questions expected: 150
-Questions parsed:   150
+# Parse Report
 
-Options:
-  4 options: 150
-  Missing: 0
+## Overall
 
-Question IDs:
-  Present: 150
-  Duplicate: 0
+- Files parsed: 2
+- Questions parsed: 300
+- Four-option questions: 300
+- Questions with missing options: 0
+- Source question IDs: 300
+- Duplicate source question IDs: 0
+- Warnings: 0
 
-Pages:
-  Recorded: 150
+## Per File
 
-Chosen options:
-  Present: 150
+### Bihar-STET-Class-11-12-Computer-Science-Official-Paper-II-Held-On_-03-Nov-2025-Shift-1-Eng.txt
 
-Parse warnings:
-  0
+- Expected questions: 150
+- Parsed questions: 150
+- Four options: 150
+- Missing options: 0
+- Source IDs: 150
+- Duplicate IDs: 0
+- Warnings: 0
+- Status: **PASS**
+
+### Bihar-STET-Class-11-12-Computer-Science-Official-Paper-II-Held-On_-03-Nov-2025-Shift-2-Eng.txt
+
+- Expected questions: 150
+- Parsed questions: 150
+- Four options: 150
+- Missing options: 0
+- Source IDs: 150
+- Duplicate IDs: 0
+- Warnings: 0
+- Status: **PASS**
