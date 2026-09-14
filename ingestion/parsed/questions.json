@@ -4224,5 +4224,4231 @@
         }
       }
     ]
+  },
+  {
+    "paper": {
+      "file": "Bihar-STET-Class-11-12-Computer-Science-Official-Paper-II-Held-On_-04-Nov-2025-Shift-2-Eng.txt",
+      "year": 2025,
+      "exam_date": "2025-11-04",
+      "shift": 2,
+      "paper": "Paper II",
+      "subject": "Computer Science",
+      "language": "English"
+    },
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "Which type of method does not have an implementation in the base class and must be\noverridden by derived classes?",
+        "source": {
+          "page": 4,
+          "source_question_id": "4335766245"
+        },
+        "options": {
+          "A": "Virtual method",
+          "B": "Abstract method",
+          "C": "Sealed method",
+          "D": "Static method"
+        }
+      },
+      {
+        "question_number": 2,
+        "question": "Which of the following is a DML command in SQL ?",
+        "source": {
+          "page": 4,
+          "source_question_id": "4335766442"
+        },
+        "options": {
+          "A": "UPDATE",
+          "B": "CREATE",
+          "C": "ALTER",
+          "D": "DROP"
+        }
+      },
+      {
+        "question_number": 3,
+        "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what\nare all the possible remainders?",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766294"
+        },
+        "options": {
+          "A": "0",
+          "B": "0,2",
+          "C": "0,1,2",
+          "D": "0,1,2,3"
+        }
+      },
+      {
+        "question_number": 4,
+        "question": "The concept of monitors was introduced by:",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766138"
+        },
+        "options": {
+          "A": "Edsger Dijkstra",
+          "B": "Alan Turing",
+          "C": "Tim Berners-Lee",
+          "D": "Linus Torvalds"
+        }
+      },
+      {
+        "question_number": 5,
+        "question": "De Morgan's Theorems are particularly useful in simplifying logic expressions that have\na large number of ___________.",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766065"
+        },
+        "options": {
+          "A": "Variables",
+          "B": "Constants",
+          "C": "Terms",
+          "D": "Operators"
+        }
+      },
+      {
+        "question_number": 6,
+        "question": "What does SQL stand for?",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766275"
+        },
+        "options": {
+          "A": "Structured Query Language",
+          "B": "Simple Query Language",
+          "C": "Systematic Query Logic",
+          "D": "Standard Query Level"
+        }
+      },
+      {
+        "question_number": 7,
+        "question": "What does the 'https' in a web address indicate ?",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766025"
+        },
+        "options": {
+          "A": "The website is hosted on a local server",
+          "B": "The website is a search engine",
+          "C": "The website uses standard HTTP protocol",
+          "D": "The website is secure using encryption"
+        }
+      },
+      {
+        "question_number": 8,
+        "question": "What is an entity in DTD?",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766270"
+        },
+        "options": {
+          "A": "A reference to an external resource",
+          "B": "A mathematical equation",
+          "C": "A special XML tag",
+          "D": "A function in JavaScript"
+        }
+      },
+      {
+        "question_number": 9,
+        "question": "The aliasing effect on an image can be reduced using which of the following methods?",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335766414"
+        },
+        "options": {
+          "A": "By reducing the high-frequency components of image by clarifying the image",
+          "B": "By increasing the high-frequency components of image by clarifying the image",
+          "C": "By increasing the high-frequency components of image by blurring the image",
+          "D": "By reducing the high-frequency components of image by blurring the image"
+        }
+      },
+      {
+        "question_number": 10,
+        "question": "Which version of IP address is most suitable for IoT?",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335766323"
+        },
+        "options": {
+          "A": "IP V4",
+          "B": "IP V5",
+          "C": "IP V6",
+          "D": "IP V7"
+        }
+      },
+      {
+        "question_number": 11,
+        "question": "In computer graphics, arrays can be used to store pixel values for images. Which type\nof array would be suitable for this purpose?",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335766118"
+        },
+        "options": {
+          "A": "1-D array",
+          "B": "2-D array",
+          "C": "3-D array",
+          "D": "4-D array"
+        }
+      },
+      {
+        "question_number": 12,
+        "question": "Frame design in the Data Link Layer includes:",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766185"
+        },
+        "options": {
+          "A": "Deciding the routing path for data packets",
+          "B": "Defining the structure of data frames",
+          "C": "Assigning IP addresses to devices",
+          "D": "Setting the data transmission rate"
+        }
+      },
+      {
+        "question_number": 13,
+        "question": "In general, a file is basically a collection of all related______.",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766171"
+        },
+        "options": {
+          "A": "Rows & Columns",
+          "B": "Database",
+          "C": "Fields",
+          "D": "Records"
+        }
+      },
+      {
+        "question_number": 14,
+        "question": "Which of the following refers to the level of data abstraction that describes exactly how\nthe data actually stored?",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766165"
+        },
+        "options": {
+          "A": "Conceptual Level",
+          "B": "Physical Level",
+          "C": "File Level",
+          "D": "Logical Level"
+        }
+      },
+      {
+        "question_number": 15,
+        "question": "What is the full form of SCADA?",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335766328"
+        },
+        "options": {
+          "A": "Supervisory Control and Document Acquisition",
+          "B": "Supervisory Control and Data Acquisition",
+          "C": "Supervisory Column and Data Assessment",
+          "D": "Supervisory Control and Data Assessment"
+        }
+      },
+      {
+        "question_number": 16,
+        "question": "Full form of MQTT is",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335766327"
+        },
+        "options": {
+          "A": "Multi-Queue Telemetry Things",
+          "B": "Multiple Queueing Telemetry Things",
+          "C": "Message Queue Telemetry Things",
+          "D": "Message Queue Telemetry Transport"
+        }
+      },
+      {
+        "question_number": 17,
+        "question": "What is the term for defining multiple methods in a class with the same name but\ndifferent parameters?",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335766244"
+        },
+        "options": {
+          "A": "Overriding",
+          "B": "Overloading",
+          "C": "Inheriting",
+          "D": "Inheritance"
+        }
+      },
+      {
+        "question_number": 18,
+        "question": "In HTML, we start a comment using :",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766470"
+        },
+        "options": {
+          "A": "<!- -",
+          "B": "!- ->",
+          "C": "- -!>",
+          "D": "<--!"
+        }
+      },
+      {
+        "question_number": 19,
+        "question": "Consider the statements given below and then choose the correct output from the\ngiven options :\nD={ 'S01 ' : 95, 'S02' : 96 }\nfor I in D :\nprint ( I , end = '#' )",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766437"
+        },
+        "options": {
+          "A": "S01#S02#",
+          "B": "95#96#",
+          "C": "S01,95#S02,96#",
+          "D": "S01#95#S02#96#"
+        }
+      },
+      {
+        "question_number": 20,
+        "question": "In Karnaugh Maps, which of the following terms refers to a group of adjacent cells that\ncan be combined to simplify a logic expression?",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766062"
+        },
+        "options": {
+          "A": "Block",
+          "B": "Cluster",
+          "C": "Pair",
+          "D": "Group"
+        }
+      },
+      {
+        "question_number": 21,
+        "question": "Select the correct option to fill in the blank : A ___________ is an online platform or\nwebsite where individuals or businesses regularly publish articles/journals, known as\nposts, on various topics.",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766424"
+        },
+        "options": {
+          "A": "Brower",
+          "B": "Blog",
+          "C": "News Group",
+          "D": "Web Server"
+        }
+      },
+      {
+        "question_number": 22,
+        "question": "The dining philosophers problem is an example of a synchronization problem related\nto:",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766144"
+        },
+        "options": {
+          "A": "Process scheduling",
+          "B": "Mutual exclusion",
+          "C": "Memory allocation",
+          "D": "Interrupt handling"
+        }
+      },
+      {
+        "question_number": 23,
+        "question": "Inter-process communication (IPC) is a mechanism used for:",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766136"
+        },
+        "options": {
+          "A": "Preventing processes from executing concurrently",
+          "B": "Allowing processes to run independently without communication",
+          "C": "Enabling processes to exchange information and synchronize their actions",
+          "D": "Enabling processes to execute in a random order"
+        }
+      },
+      {
+        "question_number": 24,
+        "question": "What is the purpose of Domain Name System Server in networking?",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335765997"
+        },
+        "options": {
+          "A": "To encrypt data during transmission.",
+          "B": "To convert domain names into IP addresses",
+          "C": "To regulate network traffic flow.",
+          "D": "To establish a secure connection between devices."
+        }
+      },
+      {
+        "question_number": 25,
+        "question": "Which programming paradigm focuses on breaking down a program into smaller\nprocedures or functions?",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335766227"
+        },
+        "options": {
+          "A": "Object-Oriented Programming",
+          "B": "Procedural Programming",
+          "C": "Functional Programming",
+          "D": "Imperative Programming"
+        }
+      },
+      {
+        "question_number": 26,
+        "question": "Which form of e‐marketplace brings together buyers and sellers from multiple\nindustries, often for MRO materials?",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335766383"
+        },
+        "options": {
+          "A": "Horizontal",
+          "B": "Vertical",
+          "C": "integrated",
+          "D": "isolated"
+        }
+      },
+      {
+        "question_number": 27,
+        "question": "Which Internet Protocol is responsible for mapping IP addresses to MAC addresses?",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335766177"
+        },
+        "options": {
+          "A": "ARP",
+          "B": "TCP",
+          "C": "ICMP",
+          "D": "DNS"
+        }
+      },
+      {
+        "question_number": 28,
+        "question": "The Cost Estimation technique that involves expert judgments and consensus is called:",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335766219"
+        },
+        "options": {
+          "A": "COCOMO",
+          "B": "Delphi Method",
+          "C": "Waterfall Model",
+          "D": "Prototype Model"
+        }
+      },
+      {
+        "question_number": 29,
+        "question": "Which type of adder is designed to overcome the propagation delay issues in ripple\ncarry adders and generate carry signals more efficiently?",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335766066"
+        },
+        "options": {
+          "A": "Ripple Carry Adder",
+          "B": "Carry Look-Ahead Adder",
+          "C": "Binary Adder",
+          "D": "Half Adder"
+        }
+      },
+      {
+        "question_number": 30,
+        "question": "This is a Assertion and Reason type questions. This question consists of two\nstatements, namely, Assertion (A) and Reason (R). Select the most suitable option\nconsidering the Assertion and Reason.Assertion (A) : SMS is an acronym for Smart\nMessage Service.Reason (R) : SMS is the most common technology for delivering\nshort, concise and important messages quickly.",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766430"
+        },
+        "options": {
+          "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation\nof Assertion (A).",
+          "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct\nexplanation of Assertion (A).",
+          "C": "Assertion (A) is true, but Reason (R) is false.",
+          "D": "Assertion (A) is false, but Reason (R) is true."
+        }
+      },
+      {
+        "question_number": 31,
+        "question": "Which of the following conversion is not possible (algorithmically)?",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766315"
+        },
+        "options": {
+          "A": "Regular grammar to context-free grammar",
+          "B": "Non-deterministic pushdown automata to deterministic pushdown automata",
+          "C": "Non-deterministic finite state automata to deterministic finite state automata",
+          "D": "Non deterministic Turing machine to deterministic Turing machine"
+        }
+      },
+      {
+        "question_number": 32,
+        "question": "Which among the followings is not a property of knowledge representation?",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766367"
+        },
+        "options": {
+          "A": "Representational Verification",
+          "B": "Representational Adequacy",
+          "C": "Inferential Adaquacy",
+          "D": "Inferential Efficiency"
+        }
+      },
+      {
+        "question_number": 33,
+        "question": "Which of the following describes e‐commerce?",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335766378"
+        },
+        "options": {
+          "A": "Doing business electronically",
+          "B": "Doing business",
+          "C": "Sale of goods",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 34,
+        "question": "How can you make an asynchronous request to a server in JavaScript?",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335766262"
+        },
+        "options": {
+          "A": "Using the \"async\" keyword",
+          "B": "Using the \"await\" keyword",
+          "C": "Using the fetch API or XMLHttpRequest",
+          "D": "By defining a callback function"
+        }
+      },
+      {
+        "question_number": 35,
+        "question": "Evaluate the given postfix expression:\n3 5 * 6 + 2 3 * -",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335765988"
+        },
+        "options": {
+          "A": "39",
+          "B": "15",
+          "C": "-9",
+          "D": "-17"
+        }
+      },
+      {
+        "question_number": 36,
+        "question": "Why do we need Industry 4.0",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766342"
+        },
+        "options": {
+          "A": "Detecting Machine failures",
+          "B": "Preventing Machine failures",
+          "C": "Improving safaty",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 37,
+        "question": "_________________ uses packet switching technology to carry voice traffic over an IP\nnetwork where each packet follows best route to reach its destination.",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766005"
+        },
+        "options": {
+          "A": "E-mail",
+          "B": "HTTP",
+          "C": "VoIP",
+          "D": "SMTP"
+        }
+      },
+      {
+        "question_number": 38,
+        "question": "Delphi and COCOMO are techniques used for estimating:",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766214"
+        },
+        "options": {
+          "A": "Software size",
+          "B": "Software reliability",
+          "C": "Software complexity",
+          "D": "Software development cost"
+        }
+      },
+      {
+        "question_number": 39,
+        "question": "In the Backtracking approach for the 8-Queens problem, once a feasible solution is\nfound, the algorithm:",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766086"
+        },
+        "options": {
+          "A": "Stops and returns the solution",
+          "B": "Continues searching for more solutions",
+          "C": "Iterates through all possibilities",
+          "D": "Rearranges the queens to optimize the solution"
+        }
+      },
+      {
+        "question_number": 40,
+        "question": "When using the parity bit method, how does the receiver determine if an error has\noccurred during transmission?",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766068"
+        },
+        "options": {
+          "A": "By counting the number of ones in the data",
+          "B": "By comparing the parity bit with the data",
+          "C": "By performing modulo arithmetic",
+          "D": "By comparing the number of ones with the parity bit"
+        }
+      },
+      {
+        "question_number": 41,
+        "question": "The term used to describe the maximum amount of data that can be transmitted over a\ncommunication channel in a given time period is:",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766179"
+        },
+        "options": {
+          "A": "Bandwidth",
+          "B": "Data Rate",
+          "C": "Latency",
+          "D": "Protocol"
+        }
+      },
+      {
+        "question_number": 42,
+        "question": "What will be the output of the following statement ?\nPrint (14%3**2*4)",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766431"
+        },
+        "options": {
+          "A": "16",
+          "B": "64",
+          "C": "20",
+          "D": "256"
+        }
+      },
+      {
+        "question_number": 43,
+        "question": "In XML, which attribute is used to uniquely identify an element?",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766269"
+        },
+        "options": {
+          "A": "id",
+          "B": "class",
+          "C": "name",
+          "D": "tag"
+        }
+      },
+      {
+        "question_number": 44,
+        "question": "Which of the following is type 1 language or Type 1 grammar?",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766305"
+        },
+        "options": {
+          "A": "Regular grammar/ Regular language",
+          "B": "Context Free Grammar / Context Free language",
+          "C": "Context Sensitive Grammar / Context Sensitive language",
+          "D": "Recursively Enumerable"
+        }
+      },
+      {
+        "question_number": 45,
+        "question": "Which keyword is used to indicate that a class cannot be inherited by other classes?",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766248"
+        },
+        "options": {
+          "A": "sealed",
+          "B": "final",
+          "C": "private",
+          "D": "static"
+        }
+      },
+      {
+        "question_number": 46,
+        "question": "A universal Turing machine is a--------",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766313"
+        },
+        "options": {
+          "A": "Single tape Turing machine",
+          "B": "Two-tape Turing machine",
+          "C": "Reprogrammable Truing machine",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 47,
+        "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766053"
+        },
+        "options": {
+          "A": "Subtraction method",
+          "B": "Addition method",
+          "C": "Exclusive OR (XOR) operation",
+          "D": "Division method"
+        }
+      },
+      {
+        "question_number": 48,
+        "question": "This is a Assertion and Reason type questions. This question consists of two\nstatements, namely, Assertion (A) and Reason (R). Select the most suitable option\nconsidering the Assertion and Reason. Assertion (A) : CSS is an attribute of the table\ntag and is used to style tables on a web page. Reason (R) : CSS is used to apply styles,\nsuch as fonts, colors, and spacing in an HTML document.",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766029"
+        },
+        "options": {
+          "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation\nof Assertion (A).",
+          "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct\nexplanation of Assertion (A).",
+          "C": "Assertion (A) is true, but Reason (R) is false.",
+          "D": "Assertion (A) is false, but Reason (R) is true."
+        }
+      },
+      {
+        "question_number": 49,
+        "question": "Which sorting algorithm has a worst-case time complexity of O(n^2) in its basic form?",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766105"
+        },
+        "options": {
+          "A": "Quick Sort",
+          "B": "Merge Sort",
+          "C": "Insertion Sort",
+          "D": "Counting Sort"
+        }
+      },
+      {
+        "question_number": 50,
+        "question": "Greedy search strategy chooses the node for expansion in ___________",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766363"
+        },
+        "options": {
+          "A": "Shallowest",
+          "B": "Deepest",
+          "C": "The one close to the goal node",
+          "D": "Minimum heuristic cost"
+        }
+      },
+      {
+        "question_number": 51,
+        "question": "The software developed to detect and remove viruses only is called ______________.",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766016"
+        },
+        "options": {
+          "A": "Malware",
+          "B": "Antivirus",
+          "C": "Spyware",
+          "D": "Adware"
+        }
+      },
+      {
+        "question_number": 52,
+        "question": "Which of the following refers to the level of data abstraction that describes exactly how\nthe data stored?",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766159"
+        },
+        "options": {
+          "A": "Conceptual Level",
+          "B": "Physical Level",
+          "C": "File Level",
+          "D": "Logical Level"
+        }
+      },
+      {
+        "question_number": 53,
+        "question": "Which function should be used to get first n rows of a dataframe ?",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766001"
+        },
+        "options": {
+          "A": "print(n)",
+          "B": "head(n)",
+          "C": "get(n)",
+          "D": "call(n)"
+        }
+      },
+      {
+        "question_number": 54,
+        "question": "Which of the following is a mapped data type?",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766452"
+        },
+        "options": {
+          "A": "List",
+          "B": "Sets",
+          "C": "Dictionary",
+          "D": "Boolean"
+        }
+      },
+      {
+        "question_number": 55,
+        "question": "The applications of AI includes",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766355"
+        },
+        "options": {
+          "A": "Gaming",
+          "B": "Expert Systems",
+          "C": "ML and DL",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 56,
+        "question": "The easiest way in which we can transfer control is when the old backup site sends\n__________ to the old primary.",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766168"
+        },
+        "options": {
+          "A": "Redo logs",
+          "B": "Primary Logs",
+          "C": "Undo Logs",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 57,
+        "question": "The minimum number of productions required to produce a language consisting of\npalindrome strings over ∑={a,b} is",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766299"
+        },
+        "options": {
+          "A": "3",
+          "B": "7",
+          "C": "5",
+          "D": "6"
+        }
+      },
+      {
+        "question_number": 58,
+        "question": "WSN stands for?",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766326"
+        },
+        "options": {
+          "A": "Wireless Standard Protocol",
+          "B": "Wireless Sensor Protocol",
+          "C": "Wireless Serial Protocol",
+          "D": "Wireless Single Protocol"
+        }
+      },
+      {
+        "question_number": 59,
+        "question": "Auxiliary storage space management in an operating system involves:",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766124"
+        },
+        "options": {
+          "A": "Allocating memory for CPU registers",
+          "B": "Managing input/output operations between processes and devices",
+          "C": "Managing the allocation of memory to processes",
+          "D": "Managing the allocation of space on secondary storage devices"
+        }
+      },
+      {
+        "question_number": 60,
+        "question": "Each ___ represents a particular colour.",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766408"
+        },
+        "options": {
+          "A": "Frame",
+          "B": "Character",
+          "C": "Pixel value",
+          "D": "None of the above"
+        }
+      },
+      {
+        "question_number": 61,
+        "question": "The quality of ___ remains unchanged even if the size is increased or decreased.",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766410"
+        },
+        "options": {
+          "A": "Vector graphics",
+          "B": "Illustrations",
+          "C": "Photographs",
+          "D": "Line images"
+        }
+      },
+      {
+        "question_number": 62,
+        "question": "Software engineering emerged due to:",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766201"
+        },
+        "options": {
+          "A": "The decline of computer technology",
+          "B": "The need for complex hardware systems",
+          "C": "The challenges posed by software development",
+          "D": "The focus on hardware-only solutions"
+        }
+      },
+      {
+        "question_number": 63,
+        "question": "Which software life cycle model is based on iterative prototyping?",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335766217"
+        },
+        "options": {
+          "A": "Waterfall model",
+          "B": "Spiral model",
+          "C": "Agile model",
+          "D": "Prototype model"
+        }
+      },
+      {
+        "question_number": 64,
+        "question": "Which technology offers the highest level of customization for implementing digital\nlogic circuits?",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335766035"
+        },
+        "options": {
+          "A": "ROM-based design",
+          "B": "PLA-based design",
+          "C": "FPGA-based design",
+          "D": "Gate Array-based design"
+        }
+      },
+      {
+        "question_number": 65,
+        "question": "Stack works on the principle of………………..",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335765989"
+        },
+        "options": {
+          "A": "Mid Element First",
+          "B": "First In First Out",
+          "C": "Last In First Out",
+          "D": "Last In Last Out"
+        }
+      },
+      {
+        "question_number": 66,
+        "question": "SFTP is used for :",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766103"
+        },
+        "options": {
+          "A": "Sending Files over the Internet in a secure manner",
+          "B": "Sending Mail over the Internet in a secure manner",
+          "C": "Video Conferencing",
+          "D": "Secure Chat Services"
+        }
+      },
+      {
+        "question_number": 67,
+        "question": "How are cookies typically stored on a client's device?",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766264"
+        },
+        "options": {
+          "A": "In a plain text file",
+          "B": "In a database",
+          "C": "In an encrypted format",
+          "D": "In the browser's cache"
+        }
+      },
+      {
+        "question_number": 68,
+        "question": "Which of the following is not considered as a type of e-waste ?",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766009"
+        },
+        "options": {
+          "A": "Televisions",
+          "B": "Personal Electronic Devices",
+          "C": "Scanner and Copier",
+          "D": "Newspaper"
+        }
+      },
+      {
+        "question_number": 69,
+        "question": "Who is known as the father of AI?",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335766354"
+        },
+        "options": {
+          "A": "Fisher Ada",
+          "B": "Alan Turing",
+          "C": "John McCarthy",
+          "D": "Allen Newell"
+        }
+      },
+      {
+        "question_number": 70,
+        "question": "What are the three main types of DBMSs?",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335766479"
+        },
+        "options": {
+          "A": "Relational DBMSs, hierarchical DBMSs, and network DBMSs.",
+          "B": "Relational DBMSs, object-oriented DBMSs, and NoSQL DBMSs.",
+          "C": "Hierarchical DBMSs, network DBMSs, and object-oriented DBMSs.",
+          "D": "NoSQL DBMSs, object-oriented DBMSs, and relational DBMSs."
+        }
+      },
+      {
+        "question_number": 71,
+        "question": "In Python,………………..module need to be imported for implementing Double Ended\nQueue.",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335765990"
+        },
+        "options": {
+          "A": "counter",
+          "B": "collections",
+          "C": "random",
+          "D": "numpy"
+        }
+      },
+      {
+        "question_number": 72,
+        "question": "What is the value of the following expression?\n3 + 3.00, 3**3.0",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766450"
+        },
+        "options": {
+          "A": "[6.0, 27.0]",
+          "B": "(6.0, 9.0)",
+          "C": "(6, 27)",
+          "D": "(6.0, 27.0)"
+        }
+      },
+      {
+        "question_number": 73,
+        "question": "What is the primary goal of the Backtracking approach in solving the Hamiltonian Cycle\nproblem?",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766085"
+        },
+        "options": {
+          "A": "To find a cycle with the fewest edges",
+          "B": "To find a cycle with the lowest weight",
+          "C": "To find a cycle that visits every vertex exactly once",
+          "D": "To find a cycle with the maximum number of edges"
+        }
+      },
+      {
+        "question_number": 74,
+        "question": "Which statement is used to retrieve data from a database in SQL?",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766276"
+        },
+        "options": {
+          "A": "SELECT",
+          "B": "UPDATE",
+          "C": "DELETE",
+          "D": "INSERT"
+        }
+      },
+      {
+        "question_number": 75,
+        "question": "The popular method of organizing wireless network topologies are?",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335766348"
+        },
+        "options": {
+          "A": "Software",
+          "B": "Network",
+          "C": "Synchronization",
+          "D": "Cluster"
+        }
+      },
+      {
+        "question_number": 76,
+        "question": "Musa's Basic Model is used for measuring:",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335766221"
+        },
+        "options": {
+          "A": "Software complexity",
+          "B": "Software reliability",
+          "C": "Software performance",
+          "D": "Software size"
+        }
+      },
+      {
+        "question_number": 77,
+        "question": "Which characteristics are taken together in chromaticity?",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335766413"
+        },
+        "options": {
+          "A": "Hue and Saturation",
+          "B": "Hue and Brightness",
+          "C": "Saturation, Hue, and Brightness",
+          "D": "Saturation and Brightness"
+        }
+      },
+      {
+        "question_number": 78,
+        "question": "Which of the following can be used to extract or filter the data & information from the\ndata warehouse?",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766158"
+        },
+        "options": {
+          "A": "Data redundancy",
+          "B": "Data recovery tool",
+          "C": "Data mining",
+          "D": "Both B and C"
+        }
+      },
+      {
+        "question_number": 79,
+        "question": "Which memory management technique uses fixed-sized blocks of memory, allowing\nprocesses to be loaded into any available block?",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766134"
+        },
+        "options": {
+          "A": "Paging",
+          "B": "Segmentation",
+          "C": "Virtual memory",
+          "D": "Relocation"
+        }
+      },
+      {
+        "question_number": 80,
+        "question": "Which of the following is an extension to the basic model of Turing machine:",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766310"
+        },
+        "options": {
+          "A": "Multi tape Turing machine",
+          "B": "Multi head Turing machine",
+          "C": "Nondeterministic Turing machine",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 81,
+        "question": "AI is about",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766353"
+        },
+        "options": {
+          "A": "Playing games on Computer",
+          "B": "Making a machine intelligent",
+          "C": "putting human intelligence into computer",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 82,
+        "question": "Assertion (A) and Reason (R) based questions. Mark the correct choice as:\nAssertion (A) : Every object in Python is assigned a unique identity (ID).\nReason (R) : ID remains the same for the lifetime of that object.",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766463"
+        },
+        "options": {
+          "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation\nof the Assertion (A).",
+          "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct\nexplanation of the Assertion (A).",
+          "C": "Assertion (A) is true, but Reason (R) is false.",
+          "D": "Assertion (A) is false, but Reason (R) is true."
+        }
+      },
+      {
+        "question_number": 83,
+        "question": "What is the primary purpose of Software Requirements Specification (SRS)\ndocuments?",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766203"
+        },
+        "options": {
+          "A": "To list the programming languages used",
+          "B": "To describe the user interface design",
+          "C": "To define the software's functional and non-functional requirements",
+          "D": "To specify the hardware components required"
+        }
+      },
+      {
+        "question_number": 84,
+        "question": "In BFS, vertices are explored level by level, starting from the:",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766102"
+        },
+        "options": {
+          "A": "Deepest level",
+          "B": "Shallowest level",
+          "C": "Middle level",
+          "D": "Highest degree vertex"
+        }
+      },
+      {
+        "question_number": 85,
+        "question": "Let the word be “automata”. The total number of states required to recognize the word\nusing DFA would be __________",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766291"
+        },
+        "options": {
+          "A": "9 states",
+          "B": "8 states",
+          "C": "10 states",
+          "D": "word cannot be recognized using DFA"
+        }
+      },
+      {
+        "question_number": 86,
+        "question": "In MYSQL, which type of value should not be enclosed within quotation marks ?",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766444"
+        },
+        "options": {
+          "A": "DATE",
+          "B": "VARCHAR",
+          "C": "FLOAT",
+          "D": "CHAR"
+        }
+      },
+      {
+        "question_number": 87,
+        "question": "EBCDIC is mainly used in which type of computer systems?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766045"
+        },
+        "options": {
+          "A": "Mainframe computers",
+          "B": "Personal computers",
+          "C": "Supercomputers",
+          "D": "Mobile devices"
+        }
+      },
+      {
+        "question_number": 88,
+        "question": "ZigBee architecture has ________layers?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766339"
+        },
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        }
+      },
+      {
+        "question_number": 89,
+        "question": "What is the purpose of error control in the Data Link Layer?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766184"
+        },
+        "options": {
+          "A": "To prevent unauthorized access",
+          "B": "To correct errors in the physical layer",
+          "C": "To ensure reliable data transmission",
+          "D": "To manage network congestion"
+        }
+      },
+      {
+        "question_number": 90,
+        "question": "Which of the following devices is essential to set up a wired LAN?",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766460"
+        },
+        "options": {
+          "A": "Modem",
+          "B": "NIC",
+          "C": "Repeater",
+          "D": "Firewall"
+        }
+      },
+      {
+        "question_number": 91,
+        "question": "Convert the Boolean function F(A, B, C) = Σ(0, 1, 3, 5) to its simplified SOP form.",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766046"
+        },
+        "options": {
+          "A": "A + B + C",
+          "B": "A'B + AC",
+          "C": "A + B + C'",
+          "D": "A'B'C"
+        }
+      },
+      {
+        "question_number": 92,
+        "question": "The main advantage of the overlay technique in memory management is that it allows:",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766133"
+        },
+        "options": {
+          "A": "Processes to be loaded into memory as a whole",
+          "B": "Processes to share memory partitions",
+          "C": "Large programs to be executed on systems with limited memory",
+          "D": "Processes to communicate directly with each other"
+        }
+      },
+      {
+        "question_number": 93,
+        "question": "Process-to-process communication involves communication between:",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766193"
+        },
+        "options": {
+          "A": "Different network layers",
+          "B": "Different devices on the same network",
+          "C": "Devices using different protocols",
+          "D": "Processes on different devices"
+        }
+      },
+      {
+        "question_number": 94,
+        "question": "Which algorithm can be optimized to meet the timing deadlines and rate requirements\nof continuous media?",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766400"
+        },
+        "options": {
+          "A": "Earliest-Deadline-First scheduling",
+          "B": "SCAN-EDF scheduling",
+          "C": "Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling",
+          "D": "None of the above"
+        }
+      },
+      {
+        "question_number": 95,
+        "question": "A socket is used for:",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766189"
+        },
+        "options": {
+          "A": "Physical data transmission",
+          "B": "Process-to-process communication",
+          "C": "Storing network protocols",
+          "D": "Network management"
+        }
+      },
+      {
+        "question_number": 96,
+        "question": "Which one is not an encryption Technique?",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766391"
+        },
+        "options": {
+          "A": "AES",
+          "B": "DES",
+          "C": "RSA",
+          "D": "FTP"
+        }
+      },
+      {
+        "question_number": 97,
+        "question": "Questions given below is of Assertion and Reason type question. This question\nconsists of two statements, namely, Assertion (A) and Reason (R). Select the most\nsuitable option considering the Assertion and Reason. Assertion (A) : It becomes\ndifficult to update and maintain a website’s design using CSS. Reason (R) : CSS allows\nweb developers to separate the presentation layer (styles and layout) from the content\nlayer (HTML).",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766476"
+        },
+        "options": {
+          "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation\nof Assertion (A).",
+          "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct\nexplanation of Assertion (A).",
+          "C": "Assertion (A) is true, but Reason (R) is false.",
+          "D": "Assertion (A) is false, but Reason (R) is true."
+        }
+      },
+      {
+        "question_number": 98,
+        "question": "How many inputs does a full -adder circuit have for each individual binary digit being\nadded or subtracted?",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766032"
+        },
+        "options": {
+          "A": "1 input",
+          "B": "2 inputs",
+          "C": "3 inputs",
+          "D": "4 inputs"
+        }
+      },
+      {
+        "question_number": 99,
+        "question": "In which year did Intel release the first x86 microprocessor, the 8086, which laid the\nfoundation for the x86 architecture widely used in personal computers?",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335766056"
+        },
+        "options": {
+          "A": "1971",
+          "B": "1981",
+          "C": "1986",
+          "D": "1991"
+        }
+      },
+      {
+        "question_number": 100,
+        "question": "A threaded binary tree is a binary tree in which:",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335766098"
+        },
+        "options": {
+          "A": "Each node has two children",
+          "B": "Each node has at most one child",
+          "C": "Each node is connected to its parent",
+          "D": "Each node has a thread connecting it to its predecessor or successor"
+        }
+      },
+      {
+        "question_number": 101,
+        "question": "Affective domain focuses on adoption of a value system as a part of life style in",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335763552"
+        },
+        "options": {
+          "A": "Responding",
+          "B": "Valuing",
+          "C": "Organization",
+          "D": "Characterization"
+        }
+      },
+      {
+        "question_number": 102,
+        "question": "\"Society determines the roles of male and female.\" This statement articulates-",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763943"
+        },
+        "options": {
+          "A": "Gender as an inherent construct",
+          "B": "Gender as a hereditary endowment",
+          "C": "Gender as an intuitive construct",
+          "D": "Gender as a social construct"
+        }
+      },
+      {
+        "question_number": 103,
+        "question": "The affective domain was classified by",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763544"
+        },
+        "options": {
+          "A": "Benjamin S. Bloom",
+          "B": "Simpson",
+          "C": "Krathwhol",
+          "D": "Both A and C"
+        }
+      },
+      {
+        "question_number": 104,
+        "question": "A teacher should employ classroom management strategies which focus on:",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763853"
+        },
+        "options": {
+          "A": "controlling the class through rigid rules",
+          "B": "expecting same behaviour from all children",
+          "C": "making students abide to all rules without questioning",
+          "D": "giving ample opportunities for self reflection"
+        }
+      },
+      {
+        "question_number": 105,
+        "question": "Which domain of learning objectives is not being evaluated through our present system\nof examination:",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335764182"
+        },
+        "options": {
+          "A": "Affective",
+          "B": "Cognitive",
+          "C": "Psychomotor",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 106,
+        "question": "Individualized Education Programme is planned from the perspective of-",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335763939"
+        },
+        "options": {
+          "A": "Special Education Programme",
+          "B": "Child-centered Education Programme",
+          "C": "Open School Education Programme",
+          "D": "e-Learning Education Programme"
+        }
+      },
+      {
+        "question_number": 107,
+        "question": "For the change in the behaviour of the children, the most effective method is",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335764049"
+        },
+        "options": {
+          "A": "affectionate advice",
+          "B": "reward",
+          "C": "punishment",
+          "D": "expulsion from house"
+        }
+      },
+      {
+        "question_number": 108,
+        "question": "Which educational psychologist believed in the fact that 'All children have the potential\nto learn'?",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335764307"
+        },
+        "options": {
+          "A": "Friedrich Frobel",
+          "B": "John Dewey",
+          "C": "Johann Friedrich Herbart",
+          "D": "Maria Montessori"
+        }
+      },
+      {
+        "question_number": 109,
+        "question": "The drawback of micro teaching is –",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335763775"
+        },
+        "options": {
+          "A": "Not successful in real classroom conditions",
+          "B": "Lack of supervision is found",
+          "C": "No room for feedback",
+          "D": "Longer duration of study"
+        }
+      },
+      {
+        "question_number": 110,
+        "question": "Which of the following is more important for keeping the good mental health of\nstudents?",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335763874"
+        },
+        "options": {
+          "A": "Provision for curricula activities",
+          "B": "Freedom of expression",
+          "C": "Variety of interests",
+          "D": "Teacher’s role and school environment"
+        }
+      },
+      {
+        "question_number": 111,
+        "question": "When a teacher should present a video clip in the class?",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335764028"
+        },
+        "options": {
+          "A": "During explaining the content",
+          "B": "After explaining the content",
+          "C": "Before explaining the content",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 112,
+        "question": "Component of curriculum is:",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335764166"
+        },
+        "options": {
+          "A": "Teaching strategies",
+          "B": "Objectives",
+          "C": "Evaluation",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 113,
+        "question": "The basic requirement of teaching efficiency is-",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335763472"
+        },
+        "options": {
+          "A": "Mastery on teaching skills",
+          "B": "Mastery over use of different techniques of teaching.",
+          "C": "Mastery over appropriate use of media and technology in teaching.",
+          "D": "All the above"
+        }
+      },
+      {
+        "question_number": 114,
+        "question": "Which of the following activity is considered in the post-active phase of teaching?",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335763413"
+        },
+        "options": {
+          "A": "distribution of teaching strategies",
+          "B": "changing the strategies in terms of evidences gathered",
+          "C": "diagnosis of the learners",
+          "D": "sequencing the elements of content for presentation"
+        }
+      },
+      {
+        "question_number": 115,
+        "question": "An appropriate verb for an objective written to reflect assessment in the psychomotor\ndomain of learning would be:",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335763517"
+        },
+        "options": {
+          "A": "Acknowledge",
+          "B": "Explain",
+          "C": "Relates",
+          "D": "Assembles"
+        }
+      },
+      {
+        "question_number": 116,
+        "question": "One of the critiques of standardized tests has been that-",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335763919"
+        },
+        "options": {
+          "A": "they represent largely the mainstream culture and are therefore biased",
+          "B": "their language is difficult to understand",
+          "C": "the tests cannot be administered on large populations",
+          "D": "they do not give a clear picture of a child's ability"
+        }
+      },
+      {
+        "question_number": 117,
+        "question": "All except -------------- are major components of classroom process.",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335764274"
+        },
+        "options": {
+          "A": "Evaluating teacher’s performance",
+          "B": "Assessment of student’s learning",
+          "C": "Expected learning outcomes",
+          "D": "Classroom transaction"
+        }
+      },
+      {
+        "question_number": 118,
+        "question": "The evaluation used to improve the contents during curriculum development is:",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335764206"
+        },
+        "options": {
+          "A": "Summative evaluation",
+          "B": "Formative evaluation",
+          "C": "Diagnostic evaluation",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 119,
+        "question": "Who developed inductive approach in science teaching?",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335763581"
+        },
+        "options": {
+          "A": "Aristotle",
+          "B": "Bruner",
+          "C": "Gagne",
+          "D": "Francis Bacon"
+        }
+      },
+      {
+        "question_number": 120,
+        "question": "As a planner, the teacher must",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335763671"
+        },
+        "options": {
+          "A": "encourage classroom and panel discussion",
+          "B": "be guidance minded",
+          "C": "first decide what changes should take place in the learner",
+          "D": "observe students’ reactions skillfully"
+        }
+      },
+      {
+        "question_number": 121,
+        "question": "The Socratic method is known as",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335763658"
+        },
+        "options": {
+          "A": "Lecture demonstration method",
+          "B": "Discussion method",
+          "C": "Inquiry method",
+          "D": "Question- Answer method"
+        }
+      },
+      {
+        "question_number": 122,
+        "question": "An outline-of the topics of a subject which covered in specific time is called:",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335764176"
+        },
+        "options": {
+          "A": "Programme",
+          "B": "Syllabus",
+          "C": "Curriculum",
+          "D": "Course"
+        }
+      },
+      {
+        "question_number": 123,
+        "question": "As a facilitator, the teacher must be",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335763964"
+        },
+        "options": {
+          "A": "dominating",
+          "B": "short-tempered",
+          "C": "autocratic",
+          "D": "warm, understanding and self-controlling"
+        }
+      },
+      {
+        "question_number": 124,
+        "question": "Delivering lectures about key concepts that lead to student discussions is an example\nof",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335763728"
+        },
+        "options": {
+          "A": "Engage",
+          "B": "Elaborate",
+          "C": "Explore",
+          "D": "Explain"
+        }
+      },
+      {
+        "question_number": 125,
+        "question": "The hypothesis underlying team teaching is",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335763805"
+        },
+        "options": {
+          "A": "Teachers feel bore while working alone",
+          "B": "Teachers are not competent",
+          "C": "The best teachers in schools are shared by more students",
+          "D": "The single teacher cannot control the class"
+        }
+      },
+      {
+        "question_number": 126,
+        "question": "At the highest level of hierarchy is",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335763522"
+        },
+        "options": {
+          "A": "Understanding",
+          "B": "Application",
+          "C": "Evaluation",
+          "D": "Analysis"
+        }
+      },
+      {
+        "question_number": 127,
+        "question": "In Piaget’s theory of cognitive development, the form of reasoning at one stage\nbecomes the ______ at the next stage:",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335763793"
+        },
+        "options": {
+          "A": "content.",
+          "B": "structure.",
+          "C": "process.",
+          "D": "dialectical opposite"
+        }
+      },
+      {
+        "question_number": 128,
+        "question": "The best method to inspire students for hard labour is",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335764046"
+        },
+        "options": {
+          "A": "one should himself do hard labour seeing which students will be inspired\nspontaneously",
+          "B": "laborious students should be rewarded",
+          "C": "a lecture about the importance of hard labour be delivered",
+          "D": "the example of success through hard labour be presented"
+        }
+      },
+      {
+        "question_number": 129,
+        "question": "What is the best way for a teacher to resolve the problems in a class?",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335764295"
+        },
+        "options": {
+          "A": "Ask for other teacher's opinion",
+          "B": "Depends on one's own opinion",
+          "C": "Think on suggestions offered by the children and implement the good ones",
+          "D": "Use the view that Principal gives"
+        }
+      },
+      {
+        "question_number": 130,
+        "question": "Which of the following would you use to shape the habits?",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335763433"
+        },
+        "options": {
+          "A": "Indoctrination",
+          "B": "Teaching",
+          "C": "Training",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 131,
+        "question": "With reference to Indian history, consider the following statements :\n1.The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji.\n2.During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and\nbesieged the city.\n3. Mubammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to\nMongols\nWhich of the statements given above is/are correct?",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335764351"
+        },
+        "options": {
+          "A": "1 and 2",
+          "B": "2 only",
+          "C": "1 and 3",
+          "D": "3 only"
+        }
+      },
+      {
+        "question_number": 132,
+        "question": "Which of the following is not prism?",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764679"
+        },
+        "options": {
+          "A": "cuboid",
+          "B": "circle",
+          "C": "Pentagonal Prism",
+          "D": "cube"
+        }
+      },
+      {
+        "question_number": 133,
+        "question": "Which of the following statements with reference to Surface inversion of termerature\nis/are correct ?\n1. It causes instability in the lower layers of the atmosphere.\n2. This inversion commonly lasts for a few hours until the Sun comes up.\nSelect the correct answer from the given options :",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764377"
+        },
+        "options": {
+          "A": "1 Only",
+          "B": "2 Only",
+          "C": "Both 1 and 2",
+          "D": "Neither 1 nor 2"
+        }
+      },
+      {
+        "question_number": 134,
+        "question": "Painting to a boy, Neha said '' He is the son of the only child of my Grand father. How is\nthe boy related to Neha?",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764894"
+        },
+        "options": {
+          "A": "Brother",
+          "B": "Cousin",
+          "C": "Uncle",
+          "D": "Son in law"
+        }
+      },
+      {
+        "question_number": 135,
+        "question": "Asia’s first underground Hydel Project is located in which of the following States in\nIndia?",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764622"
+        },
+        "options": {
+          "A": "Jammu and Kashmir",
+          "B": "Himachal Pradesh",
+          "C": "Arunachal Pradesh",
+          "D": "Uttar Pradesh"
+        }
+      },
+      {
+        "question_number": 136,
+        "question": "What is the national animal of America ?",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764526"
+        },
+        "options": {
+          "A": "Tiger and Bald Eagle",
+          "B": "Bald Eagle and the American Bison",
+          "C": "American Bison and Yak",
+          "D": "Golden eagle and Bison"
+        }
+      },
+      {
+        "question_number": 137,
+        "question": "Special Economic Zones (SEZ) are developed to",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764492"
+        },
+        "options": {
+          "A": "Generate additional economic activity throughout the country",
+          "B": "Beautify suburban areas",
+          "C": "Upgrade the facilities in the countryside",
+          "D": "Promote investment from domestic and foreign sources"
+        }
+      },
+      {
+        "question_number": 138,
+        "question": "__________ is the ability to do work.",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764543"
+        },
+        "options": {
+          "A": "energy",
+          "B": "force",
+          "C": "energy and force both",
+          "D": "none of these"
+        }
+      },
+      {
+        "question_number": 139,
+        "question": "Where is the old and over 2 km-long ‘Pamban Railway Bridge’, which attracts tourists\nfrom all over the country?",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764630"
+        },
+        "options": {
+          "A": "Nilgiri",
+          "B": "Krishna delta",
+          "C": "Palk straits",
+          "D": "Malabar coast"
+        }
+      },
+      {
+        "question_number": 140,
+        "question": "What is a common effect of inflation on purchasing power?",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764422"
+        },
+        "options": {
+          "A": "Increase in purchasing power",
+          "B": "Decrease in purchasing power",
+          "C": "No effect on purchasing power",
+          "D": "Increase in savings"
+        }
+      },
+      {
+        "question_number": 141,
+        "question": "Choose the correct option instead of the question mark in the given question.\nMango : Fruit :: Onion : ?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764829"
+        },
+        "options": {
+          "A": "Root",
+          "B": "Fruit",
+          "C": "Flower",
+          "D": "Stem"
+        }
+      },
+      {
+        "question_number": 142,
+        "question": "In the given number series what number will come in place of the Question Mark\nSymbol.\n340, 316, 286, 250, ?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764855"
+        },
+        "options": {
+          "A": "280",
+          "B": "249",
+          "C": "208",
+          "D": "148"
+        }
+      },
+      {
+        "question_number": 143,
+        "question": "What did Gandhi do to break the salt law?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764594"
+        },
+        "options": {
+          "A": "Dandi March",
+          "B": "Ahmedabad March",
+          "C": "Champaran March",
+          "D": "All"
+        }
+      },
+      {
+        "question_number": 144,
+        "question": "If in a certain code, ‘ABCD’ is written as 24 and ‘EFGH’ is written as 1680, then how is\n‘IJKL’ written in that code?",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764820"
+        },
+        "options": {
+          "A": "11880",
+          "B": "11240",
+          "C": "7920",
+          "D": "5940"
+        }
+      },
+      {
+        "question_number": 145,
+        "question": "What is the remainder when 2765 is divided by 6?",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764709"
+        },
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "4",
+          "D": "3"
+        }
+      },
+      {
+        "question_number": 146,
+        "question": "The number of vertices (V) , edges (E) and faces (F) of a polyhedron are respectively\n10,15 and x. Then, the value of (3x-12) is :",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764773"
+        },
+        "options": {
+          "A": "9",
+          "B": "14",
+          "C": "18",
+          "D": "7"
+        }
+      },
+      {
+        "question_number": 147,
+        "question": "What are triangular numbers?",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764749"
+        },
+        "options": {
+          "A": "The numbers whose dot pattern can be arranged in triangles",
+          "B": "The numbers which form a triangle on adding",
+          "C": "The numbers which have three digits",
+          "D": "The numbers which do not give perfect squares on adding"
+        }
+      },
+      {
+        "question_number": 148,
+        "question": "Choose the correct option to fill in the blank.\nThe Vernacular Press Act was passed in……….on the lines of the Irish Press Act.",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764458"
+        },
+        "options": {
+          "A": "1878",
+          "B": "1968",
+          "C": "1887",
+          "D": "1778"
+        }
+      },
+      {
+        "question_number": 149,
+        "question": "6 Person are sitting in two rows, numbered 3-3. If E does not sit at any of the ends. Dis\nsecond to the left of F. C is neighbour of E and sits diagonally opposite to D. B is\nneighbour of F. Then Tell who will be in front of B ?",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764936"
+        },
+        "options": {
+          "A": "A",
+          "B": "E",
+          "C": "C",
+          "D": "D"
+        }
+      },
+      {
+        "question_number": 150,
+        "question": "A series is given with one term missing. Select the correct alternative from the given\nones that will complete the series.\nB, C, E, H, L, ?",
+        "source": {
+          "page": 56,
+          "source_question_id": "4335764974"
+        },
+        "options": {
+          "A": "P",
+          "B": "O",
+          "C": "N",
+          "D": "Q"
+        }
+      }
+    ]
+  },
+  {
+    "paper": {
+      "file": "Bihar-STET-Class-11-12-Computer-Science-Official-Paper-II-Held-On_-07-Nov-2025-Shift-1-Eng.txt",
+      "year": 2025,
+      "exam_date": "2025-11-07",
+      "shift": 1,
+      "paper": "Paper II",
+      "subject": "Computer Science",
+      "language": "English"
+    },
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "If a robot is able to change its own trajectory as per the external conditions, then the\nrobot is considered as the_",
+        "source": {
+          "page": 4,
+          "source_question_id": "4335766356"
+        },
+        "options": {
+          "A": "Intelligent",
+          "B": "Open loop",
+          "C": "Mobile",
+          "D": "Non-servo"
+        }
+      },
+      {
+        "question_number": 2,
+        "question": "Convert the Boolean function F(A, B, C) = Π(0, 2, 4, 5, 7) to its simplified POS form",
+        "source": {
+          "page": 4,
+          "source_question_id": "4335766040"
+        },
+        "options": {
+          "A": "A + B + C",
+          "B": "A + B' + C",
+          "C": "A'B'C'",
+          "D": "(A + B)(A + C')(B + C)"
+        }
+      },
+      {
+        "question_number": 3,
+        "question": "Which keyword is used to define an abstract method within an abstract class?",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766235"
+        },
+        "options": {
+          "A": "abstract",
+          "B": "virtual",
+          "C": "override",
+          "D": "implement"
+        }
+      },
+      {
+        "question_number": 4,
+        "question": "The Floyd-Warshall algorithm is a popular method for solving the All-Pair Shortest\nPaths problem. What is the time complexity of the Floyd-Warshall algorithm for a graph\nwith \"n\" vertices?",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766089"
+        },
+        "options": {
+          "A": "O(n)",
+          "B": "O(n log n)",
+          "C": "O(n^2)",
+          "D": "O(n^3)"
+        }
+      },
+      {
+        "question_number": 5,
+        "question": "Which of the following applications include in the Strategic Computing Program?",
+        "source": {
+          "page": 5,
+          "source_question_id": "4335766376"
+        },
+        "options": {
+          "A": "Battle Management",
+          "B": "Autonomous systems",
+          "C": "Pilot’s associate",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 6,
+        "question": "Turing machine can be represented using:",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766317"
+        },
+        "options": {
+          "A": "Transition table",
+          "B": "Transition diagram",
+          "C": "Instantaneous description",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 7,
+        "question": "All of the following are considered biometrics, except:",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766398"
+        },
+        "options": {
+          "A": "Fingerprint",
+          "B": "Password",
+          "C": "Voice",
+          "D": "Retina"
+        }
+      },
+      {
+        "question_number": 8,
+        "question": "To which of the following the term \"DBA\" referred?",
+        "source": {
+          "page": 6,
+          "source_question_id": "4335766160"
+        },
+        "options": {
+          "A": "Data Bank Administrator",
+          "B": "Database Administrator",
+          "C": "Data Administrator",
+          "D": "None of the above"
+        }
+      },
+      {
+        "question_number": 9,
+        "question": "The default baud rate of Modbus RTU is?",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335766343"
+        },
+        "options": {
+          "A": "19600",
+          "B": "19200",
+          "C": "38400",
+          "D": "57600"
+        }
+      },
+      {
+        "question_number": 10,
+        "question": "The goal of synchronization mechanisms in parallel programming is to:",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335766143"
+        },
+        "options": {
+          "A": "Speed up the execution of processes",
+          "B": "Eliminate parallelism",
+          "C": "Avoid deadlock situations",
+          "D": "Increase the number of race conditions"
+        }
+      },
+      {
+        "question_number": 11,
+        "question": "Which of the following IP addresses is valid",
+        "source": {
+          "page": 7,
+          "source_question_id": "4335768732"
+        },
+        "options": {
+          "A": "122.94.96.212",
+          "B": "212.254.258.210",
+          "C": "210.10.12.156.209",
+          "D": "122.294.56.68"
+        }
+      },
+      {
+        "question_number": 12,
+        "question": "___________ plot is used to show the spread and centers of a dataset.",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766003"
+        },
+        "options": {
+          "A": "box",
+          "B": "line",
+          "C": "bar",
+          "D": "histogram"
+        }
+      },
+      {
+        "question_number": 13,
+        "question": "How can you establish a connection between PHP and MySQL?",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766278"
+        },
+        "options": {
+          "A": "Using the \"connect()\" function in PHP",
+          "B": "By including a PHP library",
+          "C": "By embedding MySQL queries directly in PHP code",
+          "D": "By using the \"mysqli_connect()\" function in PHP"
+        }
+      },
+      {
+        "question_number": 14,
+        "question": "Which one is not a physical threat",
+        "source": {
+          "page": 8,
+          "source_question_id": "4335766390"
+        },
+        "options": {
+          "A": "Hacking",
+          "B": "Storm",
+          "C": "Fire",
+          "D": "Flood"
+        }
+      },
+      {
+        "question_number": 15,
+        "question": "The SQL keyword……………….is used with wildcards.",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335765999"
+        },
+        "options": {
+          "A": "LIKE",
+          "B": "IN",
+          "C": "NOT IN",
+          "D": "DISTINCT"
+        }
+      },
+      {
+        "question_number": 16,
+        "question": "What is the key advantage of using a carry-lookahead adder instead of a ripple-carry\nadder?",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335766039"
+        },
+        "options": {
+          "A": "Simplicity of design",
+          "B": "Faster propagation delay",
+          "C": "Lower power consumption",
+          "D": "Reduced gate count"
+        }
+      },
+      {
+        "question_number": 17,
+        "question": "What is the difference between a hard disk drive and a solid-state drive?",
+        "source": {
+          "page": 9,
+          "source_question_id": "4335766389"
+        },
+        "options": {
+          "A": "A hard disk drive uses spinning disks to store data, while a solid-state drive uses flash\nmemory to store data.",
+          "B": "A hard disk drive is slower than a solid-state drive.",
+          "C": "A hard disk drive is more durable than a solid-state drive.",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 18,
+        "question": "In an operating system, a \"buffer cache\" is used to:",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766123"
+        },
+        "options": {
+          "A": "Store files in memory",
+          "B": "Store copies of frequently used files in memory",
+          "C": "Store the operating system kernel",
+          "D": "Store input/output devices"
+        }
+      },
+      {
+        "question_number": 19,
+        "question": "___________________ are the set of rules that governs how data can be transmitted\nover world wide web.",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766017"
+        },
+        "options": {
+          "A": "Hyper Text Transfer Protocol",
+          "B": "Encryption Standards",
+          "C": "Cyber forensic",
+          "D": "Digital Certificates"
+        }
+      },
+      {
+        "question_number": 20,
+        "question": "Multimedia system require hard real time scheduling ___________",
+        "source": {
+          "page": 10,
+          "source_question_id": "4335766402"
+        },
+        "options": {
+          "A": "to ensure critical tasks will be serviced within timing deadlines",
+          "B": "to deliver the media file to the client",
+          "C": "to minimize the delay",
+          "D": "for security"
+        }
+      },
+      {
+        "question_number": 21,
+        "question": "Which of the following applications is a typical use of microcontrollers in the field of\nhome automation?",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766058"
+        },
+        "options": {
+          "A": "Satellite communication",
+          "B": "Air traffic control",
+          "C": "Temperature and lighting control",
+          "D": "Space exploration"
+        }
+      },
+      {
+        "question_number": 22,
+        "question": "What is the purpose of SQL injection attacks?",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766280"
+        },
+        "options": {
+          "A": "To increase the performance of database queries",
+          "B": "To bypass authentication systems",
+          "C": "To improve database security",
+          "D": "To enhance data encryption"
+        }
+      },
+      {
+        "question_number": 23,
+        "question": "What is the primary purpose of data compression in data communication?",
+        "source": {
+          "page": 11,
+          "source_question_id": "4335766181"
+        },
+        "options": {
+          "A": "To increase latency",
+          "B": "To reduce bandwidth usage",
+          "C": "To decrease error rates",
+          "D": "To improve security"
+        }
+      },
+      {
+        "question_number": 24,
+        "question": "What is the term for a variable that references an instance of a class?",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335766252"
+        },
+        "options": {
+          "A": "Property",
+          "B": "Method",
+          "C": "Object",
+          "D": "Constructor"
+        }
+      },
+      {
+        "question_number": 25,
+        "question": "Which network device serves as the entry and exit point of a network, as all data\ncoming in or going out of a network must first pass through it?",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335766461"
+        },
+        "options": {
+          "A": "Modem",
+          "B": "Gateway",
+          "C": "Switch",
+          "D": "Repeater"
+        }
+      },
+      {
+        "question_number": 26,
+        "question": "Identify the correct output of the following code snippet :\ngame=\"olympic2024\"\nprint (game. index (\"C\") )",
+        "source": {
+          "page": 12,
+          "source_question_id": "4335766432"
+        },
+        "options": {
+          "A": "0",
+          "B": "6",
+          "C": "-1",
+          "D": "valueError"
+        }
+      },
+      {
+        "question_number": 27,
+        "question": "In a B tree of order m, each internal node can have up to __ children.",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335766095"
+        },
+        "options": {
+          "A": "m - 1",
+          "B": "m",
+          "C": "2m - 1",
+          "D": "2m"
+        }
+      },
+      {
+        "question_number": 28,
+        "question": "Which of the following is the correct expansion of SMS ?",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335766428"
+        },
+        "options": {
+          "A": "Short Message Service p { font–family: Arial; }",
+          "B": "Small Multimedia Service p { fontfamily: Arial; }",
+          "C": "Short Multimedia Service p { font: Arial; }",
+          "D": "Small Message Service p { font–type: Arial; }"
+        }
+      },
+      {
+        "question_number": 29,
+        "question": "Which of the following statement (s) is/are TRUE in respect of Media Access Control\n(MAC) Address?\n(A) It can be changed if a node is removed from one network and connected to another\nnetwork.\n(B) Each MAC address is a 12-digit hexadecimal number.\n(C) It is a unique value associated with a network adapter called NIC.\n(D) It is provided by the Internet Service Provider to locate computers connected to the\ninternet.\nChoose the correct answer from the options given below:",
+        "source": {
+          "page": 13,
+          "source_question_id": "4335765996"
+        },
+        "options": {
+          "A": "(B) and (C) only",
+          "B": "(A), (B) and (C) only",
+          "C": "(C) and (D) only",
+          "D": "(A) and (B) only"
+        }
+      },
+      {
+        "question_number": 30,
+        "question": "While creating a table, which constraint does not allow insertion of duplicate values in\nthe table ?",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766438"
+        },
+        "options": {
+          "A": "UNIQUE",
+          "B": "DISTINCT",
+          "C": "NOT NULL",
+          "D": "HAVING"
+        }
+      },
+      {
+        "question_number": 31,
+        "question": "Which term is used to describe the ability of different classes to be treated as objects of\nthe same parent class?",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766234"
+        },
+        "options": {
+          "A": "Overloading",
+          "B": "Polymorphism",
+          "C": "Abstraction",
+          "D": "Encapsulation"
+        }
+      },
+      {
+        "question_number": 32,
+        "question": "Building blocks of a frame structure are?",
+        "source": {
+          "page": 14,
+          "source_question_id": "4335766371"
+        },
+        "options": {
+          "A": "Facts and Data",
+          "B": "Procedure and Default values",
+          "C": "Frame names",
+          "D": "Frame inference in hierarchy"
+        }
+      },
+      {
+        "question_number": 33,
+        "question": "Segmentation is a memory management technique where memory is divided into\nsegments, with each segment containing:",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335766132"
+        },
+        "options": {
+          "A": "Fixed-sized blocks of memory",
+          "B": "Different types of data structures",
+          "C": "Variable-sized blocks of memory",
+          "D": "Non-contiguous blocks of memory"
+        }
+      },
+      {
+        "question_number": 34,
+        "question": "About IoT, which among the followings is not correct?",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335766321"
+        },
+        "options": {
+          "A": "Light sensor is analog",
+          "B": "microphone is a digital sensor",
+          "C": "Keyboard is a digital sensor",
+          "D": "Push button is a digital Sensor"
+        }
+      },
+      {
+        "question_number": 35,
+        "question": "Connected components in a graph can be found using which graph traversal\nalgorithm?",
+        "source": {
+          "page": 15,
+          "source_question_id": "4335766100"
+        },
+        "options": {
+          "A": "DFS",
+          "B": "BFS",
+          "C": "Both DFS and BFS",
+          "D": "Neither DFS nor BFS"
+        }
+      },
+      {
+        "question_number": 36,
+        "question": "A complex SCADA system has _______levels?",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766330"
+        },
+        "options": {
+          "A": "6",
+          "B": "5",
+          "C": "3",
+          "D": "4"
+        }
+      },
+      {
+        "question_number": 37,
+        "question": "Hierarchical addressing in the Network Layer allows for:",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766196"
+        },
+        "options": {
+          "A": "More efficient use of IP addresses",
+          "B": "Dynamic allocation of MAC addresses",
+          "C": "Faster data transmission rates",
+          "D": "Reduced latency in data communication"
+        }
+      },
+      {
+        "question_number": 38,
+        "question": "According to Chomsky hierarchy, which of the following is recognized by Recursively\nEnumerable language?",
+        "source": {
+          "page": 16,
+          "source_question_id": "4335766311"
+        },
+        "options": {
+          "A": "Type 0",
+          "B": "Type 1",
+          "C": "Type 2",
+          "D": "Type 3"
+        }
+      },
+      {
+        "question_number": 39,
+        "question": "Which SQL clause is used to retrieve specific rows from a table?",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766282"
+        },
+        "options": {
+          "A": "SEARCH",
+          "B": "FETCH",
+          "C": "SELECT",
+          "D": "FIND"
+        }
+      },
+      {
+        "question_number": 40,
+        "question": "In conditional asymptotic notation, \"Θ(f(n)) if g(n)\" indicates that the algorithm's\ncomplexity is both upper and lower bounded by f(n) when:",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766075"
+        },
+        "options": {
+          "A": "g(n) is a lower bound on f(n)",
+          "B": "g(n) is an upper bound on f(n)",
+          "C": "g(n) is true",
+          "D": "g(n) is false"
+        }
+      },
+      {
+        "question_number": 41,
+        "question": "The OSI model consists of how many layers?",
+        "source": {
+          "page": 17,
+          "source_question_id": "4335766182"
+        },
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        }
+      },
+      {
+        "question_number": 42,
+        "question": "In a relational database, what is a primary key?",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766277"
+        },
+        "options": {
+          "A": "A key used for opening encrypted data",
+          "B": "A unique identifier for a record in a table @",
+          "C": "A foreign key from another table",
+          "D": "An index for sorting data"
+        }
+      },
+      {
+        "question_number": 43,
+        "question": "What will be the output of the following code segment?\na = 5\ndef func_1(b=10):\nglobal a\na=b-10\nb+=a\nprint (a,b)\nfunc_1(a)",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766456"
+        },
+        "options": {
+          "A": "0 5",
+          "B": "5 0",
+          "C": "0 -5",
+          "D": "-5 0"
+        }
+      },
+      {
+        "question_number": 44,
+        "question": "Which JavaScript method is used to add a new HTML element to the DOM?",
+        "source": {
+          "page": 18,
+          "source_question_id": "4335766267"
+        },
+        "options": {
+          "A": "appendElement()",
+          "B": "createElement()",
+          "C": "newElement()",
+          "D": "addElement()"
+        }
+      },
+      {
+        "question_number": 45,
+        "question": "The primary function of firewall in network security is",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766478"
+        },
+        "options": {
+          "A": "To monitor network traffic and detect anomalies.",
+          "B": "To create virtual private networks for secure communication.",
+          "C": "To filter incoming and outgoing network traffic based on security rules",
+          "D": "To encrypt data before Transmission."
+        }
+      },
+      {
+        "question_number": 46,
+        "question": "In AI systems, Knowledge can be represented in two ways. What are these two ways?\n(i) Machine Logic\n(ii) Predicate Logic\n(iii) Propositional Logic\n(iv) Compound Logic",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766368"
+        },
+        "options": {
+          "A": "(i) and (ii)",
+          "B": "(i) and (iii)",
+          "C": "(ii) and (iii)",
+          "D": "(iii) and (vi)"
+        }
+      },
+      {
+        "question_number": 47,
+        "question": "What is the difference between a URL and a web address?",
+        "source": {
+          "page": 19,
+          "source_question_id": "4335766222"
+        },
+        "options": {
+          "A": "A URL is a Uniform Resource Locator, while a web address is away to identify a\nwebsite on the internet.",
+          "B": "A URL is a software program, while a web address is ahardware device.",
+          "C": "A URL is a physical object, while a web address is a logicalobject.",
+          "D": "All of the above."
+        }
+      },
+      {
+        "question_number": 48,
+        "question": "Monitors are primarily used for achieving:",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766137"
+        },
+        "options": {
+          "A": "Deadlocks",
+          "B": "Starvation",
+          "C": "Mutual exclusion and synchronization",
+          "D": "Process termination"
+        }
+      },
+      {
+        "question_number": 49,
+        "question": "In EDI, I stands for?",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766396"
+        },
+        "options": {
+          "A": "Indian",
+          "B": "India",
+          "C": "Interchange",
+          "D": "Interval"
+        }
+      },
+      {
+        "question_number": 50,
+        "question": "Which protocol provides connectionless communication with minimal overhead?",
+        "source": {
+          "page": 20,
+          "source_question_id": "4335766191"
+        },
+        "options": {
+          "A": "TCP",
+          "B": "UDP",
+          "C": "IP",
+          "D": "HTTP"
+        }
+      },
+      {
+        "question_number": 51,
+        "question": "Which maintenance activity involves updating software to work with new hardware or\nsoftware environments?",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766225"
+        },
+        "options": {
+          "A": "Corrective Maintenance",
+          "B": "Adaptive Maintenance",
+          "C": "Perfective Maintenance",
+          "D": "Preventive Maintenance"
+        }
+      },
+      {
+        "question_number": 52,
+        "question": "A formal model of protection in an operating system provides:",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766120"
+        },
+        "options": {
+          "A": "A mathematical framework for analyzing resource allocation",
+          "B": "Guidelines for designing user interfaces",
+          "C": "Methods for optimizing memory management",
+          "D": "Techniques for improving CPU utilization"
+        }
+      },
+      {
+        "question_number": 53,
+        "question": "minimum number of states required to recognize an octal number divisible by 3 are/is",
+        "source": {
+          "page": 21,
+          "source_question_id": "4335766288"
+        },
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "1",
+          "D": "2"
+        }
+      },
+      {
+        "question_number": 54,
+        "question": "Which command is used to remove a relation from an SQL?",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766154"
+        },
+        "options": {
+          "A": "Drop table",
+          "B": "Delete",
+          "C": "Purge",
+          "D": "Remove"
+        }
+      },
+      {
+        "question_number": 55,
+        "question": "What does the term \"Software Maintenance\" refer to?",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766212"
+        },
+        "options": {
+          "A": "Developing new software applications",
+          "B": "Enhancing software performance",
+          "C": "Managing hardware components",
+          "D": "Modifying and updating existing software"
+        }
+      },
+      {
+        "question_number": 56,
+        "question": "The recurrence equation T(n) = T(n/2) + T(n/3) + n represents the time complexity of\nwhich algorithmic paradigm?",
+        "source": {
+          "page": 22,
+          "source_question_id": "4335766077"
+        },
+        "options": {
+          "A": "Divide and Conquer",
+          "B": "Dynamic Programming",
+          "C": "Greedy Algorithms",
+          "D": "Backtracking"
+        }
+      },
+      {
+        "question_number": 57,
+        "question": "What does the term \"harvard architecture\" refer to in the context of microcontrollers?",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766061"
+        },
+        "options": {
+          "A": "A type of microcontroller with high processing speed",
+          "B": "A microcontroller architecture that uses a separate memory space for instructions and\ndata",
+          "C": "A microcontroller with advanced addressing modes",
+          "D": "A microcontroller with a large number of I/O ports"
+        }
+      },
+      {
+        "question_number": 58,
+        "question": "Consider the statements given below and then choose the correct output from the\ngiven options :\nL=['TIC' , 'TAC' ]\nprint (L[::-1])",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766435"
+        },
+        "options": {
+          "A": "['CIT' , 'CAT' ]",
+          "B": "['TIC' , 'TAC' ]",
+          "C": "['CAT' , 'CIT' ]",
+          "D": "['TAC' , 'TIC' ]"
+        }
+      },
+      {
+        "question_number": 59,
+        "question": "Which of the following is not an attribute of the tag ?",
+        "source": {
+          "page": 23,
+          "source_question_id": "4335766469"
+        },
+        "options": {
+          "A": "face",
+          "B": "height",
+          "C": "size",
+          "D": "colour"
+        }
+      },
+      {
+        "question_number": 60,
+        "question": "The term \"multi-user\" in an OS context refers to:",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766147"
+        },
+        "options": {
+          "A": "An OS that can execute multiple programs simultaneously",
+          "B": "An OS that supports multiple users working on the same machine",
+          "C": "An OS that can only run on multiple computers",
+          "D": "An OS with a graphical user interface"
+        }
+      },
+      {
+        "question_number": 61,
+        "question": "TPDU (Transport Protocol Data Unit) refers to:",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766192"
+        },
+        "options": {
+          "A": "A unit of data in the physical layer",
+          "B": "A unit of data in the data link layer",
+          "C": "A unit of data in the transport layer",
+          "D": "A unit of data in the network layer"
+        }
+      },
+      {
+        "question_number": 62,
+        "question": "A* search algorithm is based on?",
+        "source": {
+          "page": 24,
+          "source_question_id": "4335766364"
+        },
+        "options": {
+          "A": "BFS",
+          "B": "DFS",
+          "C": "Uniform cost search",
+          "D": "Best first Search"
+        }
+      },
+      {
+        "question_number": 63,
+        "question": "What is the primary purpose of using Don't Care conditions in Karnaugh Map\nsimplification?",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335766063"
+        },
+        "options": {
+          "A": "To mark cells that should not be included in the simplification process",
+          "B": "To indicate cells that have an undefined logic value",
+          "C": "To identify cells that are already in their simplest form",
+          "D": "To mark cells with special logic functions"
+        }
+      },
+      {
+        "question_number": 64,
+        "question": "Which among the followins is not a type of Zigbee Device?",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335766336"
+        },
+        "options": {
+          "A": "Zigbee Coordinator device",
+          "B": "Zigbee Router",
+          "C": "Zigbee start devce",
+          "D": "Zigbee end devce"
+        }
+      },
+      {
+        "question_number": 65,
+        "question": "Zigbee is a task group in------",
+        "source": {
+          "page": 25,
+          "source_question_id": "4335766335"
+        },
+        "options": {
+          "A": "LAN",
+          "B": "PAN",
+          "C": "MAN",
+          "D": "WAN"
+        }
+      },
+      {
+        "question_number": 66,
+        "question": "In a threaded binary tree, the space required for threads is usually:",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766097"
+        },
+        "options": {
+          "A": "Greater than the space required for regular pointers",
+          "B": "Equal to the space required for regular pointers",
+          "C": "Less than the space required for regular pointers",
+          "D": "Unpredictable"
+        }
+      },
+      {
+        "question_number": 67,
+        "question": "Given the Boolean expression F(A, B, C, D) = Σ(0, 1, 2, 3, 8, 9, 10, 11), what is the\nsimplified expression using the algebraic method?",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766047"
+        },
+        "options": {
+          "A": "A + B + C + D",
+          "B": "AB + AC + AD + BC + BD + CD",
+          "C": "AB + CD",
+          "D": "A'BC'D + ABC'D + A'BCD + ABCD"
+        }
+      },
+      {
+        "question_number": 68,
+        "question": "Which model considers risk assessment and incremental development in software\nprojects?",
+        "source": {
+          "page": 26,
+          "source_question_id": "4335766220"
+        },
+        "options": {
+          "A": "Waterfall Model",
+          "B": "Agile Model",
+          "C": "Prototype Model",
+          "D": "Spiral Model"
+        }
+      },
+      {
+        "question_number": 69,
+        "question": "Which of the following expression in SQL would calculate the square root of 16?",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335765995"
+        },
+        "options": {
+          "A": "POWER (16,2)",
+          "B": "POWER (16, 0.5)",
+          "C": "POWER (16, 1)",
+          "D": "MOD (16)"
+        }
+      },
+      {
+        "question_number": 70,
+        "question": "A relation in a relational database is also known as:",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335765994"
+        },
+        "options": {
+          "A": "A data type",
+          "B": "An attribute",
+          "C": "A schema",
+          "D": "A table"
+        }
+      },
+      {
+        "question_number": 71,
+        "question": "A Database Management System is a type of _________software.",
+        "source": {
+          "page": 27,
+          "source_question_id": "4335766157"
+        },
+        "options": {
+          "A": "It is a type of system software",
+          "B": "It is a kind of application software",
+          "C": "It is a kind of general software",
+          "D": "Both A and C"
+        }
+      },
+      {
+        "question_number": 72,
+        "question": "A grammar that produces more than one parse tree for the same sentence is called",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766301"
+        },
+        "options": {
+          "A": "Contiguous",
+          "B": "Ambiguous",
+          "C": "Unambiguous",
+          "D": "Regular"
+        }
+      },
+      {
+        "question_number": 73,
+        "question": "Which traversal technique is used to visit each node of a linked list exactly once?",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766111"
+        },
+        "options": {
+          "A": "Preorder traversal",
+          "B": "Inorder traversal",
+          "C": "Postorder traversal",
+          "D": "Linear traversal"
+        }
+      },
+      {
+        "question_number": 74,
+        "question": "Which of the following is not a Search Engine available over the Internet ?",
+        "source": {
+          "page": 28,
+          "source_question_id": "4335766426"
+        },
+        "options": {
+          "A": "Google",
+          "B": "Bing",
+          "C": "Diksha",
+          "D": "Yahoo"
+        }
+      },
+      {
+        "question_number": 75,
+        "question": "In a PLA, what components are used to implement the combinational logic functions?",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335766034"
+        },
+        "options": {
+          "A": "AND gates and OR gates",
+          "B": "NAND gates and XOR gates",
+          "C": "NOR gates and XNOR gates",
+          "D": "NOT gates and multiplexers"
+        }
+      },
+      {
+        "question_number": 76,
+        "question": "Which protocol is used for sending emails?",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335766178"
+        },
+        "options": {
+          "A": "HTTP",
+          "B": "FTP",
+          "C": "SMTP",
+          "D": "SNMP"
+        }
+      },
+      {
+        "question_number": 77,
+        "question": "…………….are the unorganized facts that can be processed to generate meaningful\ninformation.",
+        "source": {
+          "page": 29,
+          "source_question_id": "4335765993"
+        },
+        "options": {
+          "A": "Information",
+          "B": "Data",
+          "C": "Blog",
+          "D": "contexts"
+        }
+      },
+      {
+        "question_number": 78,
+        "question": "Which one of the following resource is not necessarily required on a file server?",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766403"
+        },
+        "options": {
+          "A": "secondary storage",
+          "B": "processor",
+          "C": "network",
+          "D": "monitor"
+        }
+      },
+      {
+        "question_number": 79,
+        "question": "The letter S in the abbreviation HTTPS in context of Networking protocols, stands for :",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766465"
+        },
+        "options": {
+          "A": "Single",
+          "B": "Static",
+          "C": "Secure",
+          "D": "Sensitive"
+        }
+      },
+      {
+        "question_number": 80,
+        "question": "Which version control system is commonly used for collaborative web development\nprojects?",
+        "source": {
+          "page": 30,
+          "source_question_id": "4335766259"
+        },
+        "options": {
+          "A": "SVN",
+          "B": "Git",
+          "C": "Mercurial",
+          "D": "CVS"
+        }
+      },
+      {
+        "question_number": 81,
+        "question": "The term \"DFD\" stands for?",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766162"
+        },
+        "options": {
+          "A": "Data file diagram",
+          "B": "Data flow document",
+          "C": "Data flow diagram",
+          "D": "None of the above"
+        }
+      },
+      {
+        "question_number": 82,
+        "question": "Which symbol is used to define the start and end of XML tags?",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766268"
+        },
+        "options": {
+          "A": "",
+          "B": "{ }",
+          "C": "[ ]",
+          "D": "( )"
+        }
+      },
+      {
+        "question_number": 83,
+        "question": "What is the full form of FTP ?",
+        "source": {
+          "page": 31,
+          "source_question_id": "4335766422"
+        },
+        "options": {
+          "A": "File Transfer Protocol",
+          "B": "File Transmission Protocol",
+          "C": "Fast Transfer Protocol",
+          "D": "Fast Transmission Protocol"
+        }
+      },
+      {
+        "question_number": 84,
+        "question": "The language accepted by Push down Automaton:",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766302"
+        },
+        "options": {
+          "A": "Recursive Language",
+          "B": "Context free language",
+          "C": "Linearly Bounded language",
+          "D": "All of the mentioned"
+        }
+      },
+      {
+        "question_number": 85,
+        "question": "What is an encryption system that uses two keys: a public key that everyone can have\nand a private key for only the recipient?",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766397"
+        },
+        "options": {
+          "A": "Encryption",
+          "B": "IDS",
+          "C": "Security Audit software",
+          "D": "Public key Encryption"
+        }
+      },
+      {
+        "question_number": 86,
+        "question": "Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information\nwhat is the identity element for the string?",
+        "source": {
+          "page": 32,
+          "source_question_id": "4335766292"
+        },
+        "options": {
+          "A": "u-1",
+          "B": "v-1",
+          "C": "u-1v-1",
+          "D": "ε"
+        }
+      },
+      {
+        "question_number": 87,
+        "question": "Which keyword is used to create an instance of a class in most programming\nlanguages?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766229"
+        },
+        "options": {
+          "A": "alloc",
+          "B": "new",
+          "C": "create",
+          "D": "instance"
+        }
+      },
+      {
+        "question_number": 88,
+        "question": "Which of the following is known as a set of entities of the same type that share same\nproperties, or attributes?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766151"
+        },
+        "options": {
+          "A": "Relation set",
+          "B": "Tuples",
+          "C": "Entity set",
+          "D": "Entity Relation model"
+        }
+      },
+      {
+        "question_number": 89,
+        "question": "What is the time complexity of Merge Sort for sorting an array of size \"n\"?",
+        "source": {
+          "page": 33,
+          "source_question_id": "4335766093"
+        },
+        "options": {
+          "A": "O(n)",
+          "B": "O(log n)",
+          "C": "O(n log n)",
+          "D": "O(n^2)"
+        }
+      },
+      {
+        "question_number": 90,
+        "question": "Maximum read range of RFID module is?",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766334"
+        },
+        "options": {
+          "A": "10 CM",
+          "B": "5 CM",
+          "C": "15 CM",
+          "D": "2 CM"
+        }
+      },
+      {
+        "question_number": 91,
+        "question": "Which type of register is primarily used to temporarily hold data during arithmetic and\nlogical operations in a microprocessor?",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766036"
+        },
+        "options": {
+          "A": "Shift register",
+          "B": "Parallel register",
+          "C": "Accumulator register",
+          "D": "Counter register"
+        }
+      },
+      {
+        "question_number": 92,
+        "question": "Safeguards in an operating system are mechanisms used to:",
+        "source": {
+          "page": 34,
+          "source_question_id": "4335766121"
+        },
+        "options": {
+          "A": "Ensure the efficient utilization of CPU time",
+          "B": "Prevent data loss during power outages",
+          "C": "Enhance the performance of I/O operations",
+          "D": "Protect against unauthorized access and security breaches"
+        }
+      },
+      {
+        "question_number": 93,
+        "question": "Which of the following is a service for real-time text communication on the internet ?",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766018"
+        },
+        "options": {
+          "A": "e-Learning",
+          "B": "FTP",
+          "C": "Video conferencing",
+          "D": "Chat"
+        }
+      },
+      {
+        "question_number": 94,
+        "question": "If the dictionary D1 is defined as:\nD1 = {1: 'a', 2: 'b'}\nthen which of the following statements is incorrect and hence will result in an error?",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766453"
+        },
+        "options": {
+          "A": "D1 . get (1)",
+          "B": "D1 . get (3)",
+          "C": "D1 .del (1)",
+          "D": "D1 . clear (1)"
+        }
+      },
+      {
+        "question_number": 95,
+        "question": "Telnet is commonly used for:",
+        "source": {
+          "page": 35,
+          "source_question_id": "4335766194"
+        },
+        "options": {
+          "A": "Secure file transfers",
+          "B": "Remote terminal access",
+          "C": "Web browsing",
+          "D": "Email communication"
+        }
+      },
+      {
+        "question_number": 96,
+        "question": "Separate chaining involves storing collided elements in separate data structures,\ntypically in:",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766106"
+        },
+        "options": {
+          "A": "Linked lists",
+          "B": "Arrays",
+          "C": "Stacks",
+          "D": "Queues"
+        }
+      },
+      {
+        "question_number": 97,
+        "question": "PDA can be represented with the help of",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766303"
+        },
+        "options": {
+          "A": "Instantaneous description",
+          "B": "Transition diagram",
+          "C": "Transition table",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 98,
+        "question": "Which Karnaugh Map simplification technique involves grouping cells that are not\nadjacent but share a common variable value?",
+        "source": {
+          "page": 36,
+          "source_question_id": "4335766064"
+        },
+        "options": {
+          "A": "Pair simplification",
+          "B": "Quad simplification",
+          "C": "Octet simplification",
+          "D": "Group simplification"
+        }
+      },
+      {
+        "question_number": 99,
+        "question": "which of the following is/ are components of Expert Systems?",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335766377"
+        },
+        "options": {
+          "A": "Knowledge Base",
+          "B": "Inference logic",
+          "C": "User Interface",
+          "D": "All of the above"
+        }
+      },
+      {
+        "question_number": 100,
+        "question": "Arrange the following electromagnetic waves in increasing order of their frequency\nrange.\n(A) Microwaves\n(B) Infrared Waves\n(C) Light Waves\n(D) Radio Waves\nChoose the correct answer from the options given below :",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335766013"
+        },
+        "options": {
+          "A": "(A), (C), (D), (B)",
+          "B": "(D), (C), (B), (A)",
+          "C": "(B), (A), (D), (C)",
+          "D": "(D), (A), (B), (C)"
+        }
+      },
+      {
+        "question_number": 101,
+        "question": "The mirror of the Society is:",
+        "source": {
+          "page": 37,
+          "source_question_id": "4335764203"
+        },
+        "options": {
+          "A": "playground",
+          "B": "community",
+          "C": "Hospital",
+          "D": "School"
+        }
+      },
+      {
+        "question_number": 102,
+        "question": "The number of domains in taxonomies of educational objective is",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763524"
+        },
+        "options": {
+          "A": "Two",
+          "B": "Three",
+          "C": "Five",
+          "D": "Six"
+        }
+      },
+      {
+        "question_number": 103,
+        "question": "Who has developed the 'Guidelines on information literacy for lifelong learning?",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763922"
+        },
+        "options": {
+          "A": "RUSA",
+          "B": "ACRL",
+          "C": "SCONUL",
+          "D": "IFLA"
+        }
+      },
+      {
+        "question_number": 104,
+        "question": "Which type of lesson plan is simple and straightforward?",
+        "source": {
+          "page": 38,
+          "source_question_id": "4335763698"
+        },
+        "options": {
+          "A": "Daily lesson plan",
+          "B": "Weekly lesson plan",
+          "C": "Sequential lesson plans",
+          "D": "Monthly lesson plan"
+        }
+      },
+      {
+        "question_number": 105,
+        "question": "The most natural and simple way of teaching a lesson is to proceed from\nStatement I. something that the students already know\nStatement II. those facts which are unknown to the learners\nStatement III. Examples\nStatement IV. Illustrations\nChoose the correct option:-",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335763424"
+        },
+        "options": {
+          "A": "I, III and IV",
+          "B": "Only I",
+          "C": "Only II",
+          "D": "III and IV"
+        }
+      },
+      {
+        "question_number": 106,
+        "question": "Which one of the following options best describes progressive education?",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335763916"
+        },
+        "options": {
+          "A": "Learning by doing, project method, cooperative learning",
+          "B": "Thematic units, regular unit tests, ranking",
+          "C": "Personalized learning, ability grouping, labelling students",
+          "D": "Project method, ability grouping, ranking"
+        }
+      },
+      {
+        "question_number": 107,
+        "question": "In M.C.Q the correct option is:",
+        "source": {
+          "page": 39,
+          "source_question_id": "4335764162"
+        },
+        "options": {
+          "A": "Response",
+          "B": "Answer",
+          "C": "Distractors",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 108,
+        "question": "Which of the following is a sign of motivated teaching?",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335763620"
+        },
+        "options": {
+          "A": "Maximum presence of students in the class",
+          "B": "Asking questions by students",
+          "C": "Pin drop silence in the class",
+          "D": "Complition of home assignment"
+        }
+      },
+      {
+        "question_number": 109,
+        "question": "In M.C.Qs the statement of the problem is:",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335764161"
+        },
+        "options": {
+          "A": "Option",
+          "B": "Distractor",
+          "C": "Premise",
+          "D": "Stem"
+        }
+      },
+      {
+        "question_number": 110,
+        "question": "The stage in problem solving that includes the preparation of suitable hypothesis for\ninvestigation.",
+        "source": {
+          "page": 40,
+          "source_question_id": "4335763584"
+        },
+        "options": {
+          "A": "Survey",
+          "B": "Planning for action",
+          "C": "Problem description",
+          "D": "Discussion"
+        }
+      },
+      {
+        "question_number": 111,
+        "question": "While discussing about friction, a teacher gave a number of examples to explain the\nconcept. Some of the examples where friction is useful in our day-to-day life as-quoted\nby the teacher are given below.\nI. We are able to write because of friction between the tip of the pen and the paper.\nII. We are able to walk because of friction between our feet and the ground.\nIII. A ball thrown vertically upwards comes back to us due to friction.\nIV. We are able to stop a moving vehicle by applying brakes because of friction.\nThe correct examples were",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335763630"
+        },
+        "options": {
+          "A": "III, IV and I",
+          "B": "IV, I and II",
+          "C": "I, III and IV",
+          "D": "II, III and IV"
+        }
+      },
+      {
+        "question_number": 112,
+        "question": "Having variety of question sets in a question paper increases it __________",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335764289"
+        },
+        "options": {
+          "A": "Objectivity",
+          "B": "Reliability",
+          "C": "Validity",
+          "D": "Difficulty"
+        }
+      },
+      {
+        "question_number": 113,
+        "question": "If you join a teacher fraternity and choose to dress like most of the others in your\ngroup, you are exhibiting-",
+        "source": {
+          "page": 41,
+          "source_question_id": "4335763938"
+        },
+        "options": {
+          "A": "group identity",
+          "B": "group obedience",
+          "C": "group compliance",
+          "D": "group conformity"
+        }
+      },
+      {
+        "question_number": 114,
+        "question": "What is the 4 steps for constructing a test ?",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335764081"
+        },
+        "options": {
+          "A": "Planning and preparing the test",
+          "B": "Try Out the test",
+          "C": "Evaluating the test",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 115,
+        "question": "Continuous and Comprehensive evaluation was initiated by:",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335764080"
+        },
+        "options": {
+          "A": "NCTE",
+          "B": "CBSE",
+          "C": "NCERT",
+          "D": "SCERT"
+        }
+      },
+      {
+        "question_number": 116,
+        "question": "Learning is generally considered as a permanent change in behavior' based on",
+        "source": {
+          "page": 42,
+          "source_question_id": "4335763388"
+        },
+        "options": {
+          "A": "Practice and experience.",
+          "B": "Practice and challenge.",
+          "C": "Challenge and experience.",
+          "D": "Challenge and reinforcement."
+        }
+      },
+      {
+        "question_number": 117,
+        "question": "The characteristics of discussion method is",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335763798"
+        },
+        "options": {
+          "A": "Ensure maximum participation",
+          "B": "Students have the opportunity to criticize and evaluate.",
+          "C": "Logical and meaningful criticism should be accepted",
+          "D": "All of them"
+        }
+      },
+      {
+        "question_number": 118,
+        "question": "Which of the following teaching method is focused on the development of creative\nminds?",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335764309"
+        },
+        "options": {
+          "A": "Project",
+          "B": "Brain storming",
+          "C": "Observation",
+          "D": "Demonstration"
+        }
+      },
+      {
+        "question_number": 119,
+        "question": "Which type of lesson plan is concise and focused on specific concepts or skills?",
+        "source": {
+          "page": 43,
+          "source_question_id": "4335763695"
+        },
+        "options": {
+          "A": "Sequential lesson plans",
+          "B": "Weekly lesson plan",
+          "C": "Daily lesson plan",
+          "D": "Monthly lesson plan"
+        }
+      },
+      {
+        "question_number": 120,
+        "question": "The 5E learning cycle boosts student engagement and motivation through",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335763719"
+        },
+        "options": {
+          "A": "Constructivist approach",
+          "B": "Humanistic approach",
+          "C": "Naturalistic approach",
+          "D": "Pragmatist approach"
+        }
+      },
+      {
+        "question_number": 121,
+        "question": "The part of the curriculum designed to meet the needs of all students is:",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335764231"
+        },
+        "options": {
+          "A": "General education",
+          "B": "Specialized education",
+          "C": "The extra-curriculum",
+          "D": "The program of studies"
+        }
+      },
+      {
+        "question_number": 122,
+        "question": "To demonstrate success by focusing on the learner’s desired outcome, a reasonable\nlist of_____________objectives should be provided.",
+        "source": {
+          "page": 44,
+          "source_question_id": "4335763509"
+        },
+        "options": {
+          "A": "Informational",
+          "B": "Mastery",
+          "C": "Challenging",
+          "D": "General"
+        }
+      },
+      {
+        "question_number": 123,
+        "question": "In comparing lecture and demonstration lessons, which one of the following is not\ntrue?",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335764001"
+        },
+        "options": {
+          "A": "Slow children derive benefit from a lecture than brighter one",
+          "B": "There are more activities for the students in a demonstration lesson",
+          "C": "The lecture method is more conductive and useful for larger group",
+          "D": "It is difficult to ascertain students' learning in a lecture session"
+        }
+      },
+      {
+        "question_number": 124,
+        "question": "Which one of the following is the duty of a class teacher?",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335764048"
+        },
+        "options": {
+          "A": "Check the books, exercise books and bages of the students suddenly",
+          "B": "Check the lunch boxes of the students and advise them to take healthy food",
+          "C": "Check cleanliness of the class",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 125,
+        "question": "The most expected immediate outcome of teaching is-",
+        "source": {
+          "page": 45,
+          "source_question_id": "4335763471"
+        },
+        "options": {
+          "A": "Changes in the behavior of students in a desirable direction.",
+          "B": "Development of the total personality of students.",
+          "C": "Building characters of the students.",
+          "D": "Getting selected for a suitable job."
+        }
+      },
+      {
+        "question_number": 126,
+        "question": "To select subject matter, one should consider student’s:",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335764233"
+        },
+        "options": {
+          "A": "I.Q",
+          "B": "Class",
+          "C": "Health",
+          "D": "Physical age"
+        }
+      },
+      {
+        "question_number": 127,
+        "question": "Micro teaching was first adopted at Stanford University by",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335763746"
+        },
+        "options": {
+          "A": "Stephen M Corey",
+          "B": "Dwight W Allen",
+          "C": "John Dewey",
+          "D": "Arthur Cunningham"
+        }
+      },
+      {
+        "question_number": 128,
+        "question": "Introduce a problem that students might not be able to solve yet is an example of",
+        "source": {
+          "page": 46,
+          "source_question_id": "4335763721"
+        },
+        "options": {
+          "A": "Explore",
+          "B": "Engage",
+          "C": "Explain",
+          "D": "Elaborate"
+        }
+      },
+      {
+        "question_number": 129,
+        "question": "Full form of SIOP Model is",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335763843"
+        },
+        "options": {
+          "A": "Sheltered Intervention Observation Protocol",
+          "B": "Sheltered Instruction Observation Protocol",
+          "C": "Sheltered Instruction Objection Protocol",
+          "D": "Sheltered Intervention Objection Protocol"
+        }
+      },
+      {
+        "question_number": 130,
+        "question": "Which one of the following is the most suitable to improve children's learning?",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335763935"
+        },
+        "options": {
+          "A": "Regular assessment test should be conducted.",
+          "B": "Teacher should explain the content using different examples and illustrations.",
+          "C": "All types of learning material should be there in the class.",
+          "D": "Teacher should facilitate children to interact with each other on real-life situations."
+        }
+      },
+      {
+        "question_number": 131,
+        "question": "Which one among the following is NOT a major oil field located in Gujarat?",
+        "source": {
+          "page": 47,
+          "source_question_id": "4335764402"
+        },
+        "options": {
+          "A": "Ankaleshwar",
+          "B": "Kosamba",
+          "C": "Mehsana",
+          "D": "Moran"
+        }
+      },
+      {
+        "question_number": 132,
+        "question": "Who among the following is the author of the book 'The Indian Struggle 1920 - 1942' ?",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764447"
+        },
+        "options": {
+          "A": "Vinayak Damodar Savarkar",
+          "B": "Subhas Chandra Bose",
+          "C": "Vallabhbhai Patel",
+          "D": "Sarat Chandra Bose"
+        }
+      },
+      {
+        "question_number": 133,
+        "question": "7 is to 34 as 5 is to ?",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764951"
+        },
+        "options": {
+          "A": "33",
+          "B": "24",
+          "C": "54",
+          "D": "41"
+        }
+      },
+      {
+        "question_number": 134,
+        "question": "Chronologically arrange the following political events related to Indian National\nMovement beginning from the earliest :\n1. Formation of Swaraj Party\n2. Communal Award\n3. Lucknow Pact\n4. Simla Conference\nSelect the correct answer from the given options:",
+        "source": {
+          "page": 48,
+          "source_question_id": "4335764343"
+        },
+        "options": {
+          "A": "3, 1, 2, 4",
+          "B": "1, 3, 2, 4",
+          "C": "2, 1, 4, 3",
+          "D": "1, 2, 3, 4"
+        }
+      },
+      {
+        "question_number": 135,
+        "question": "As per the Cabinet Resolution of 1st January 2015, the NITI Aayog consists of :\n1. Prime Minister of India\n2. Governing Council comprising of Chief Minister of all the States and Leiutenant\nGovernors of Union Territories\n3. Rural Development Minister\n4. Chief Executive Officer to be appointed by the Prime Minister\nSelect the correct answer from the given options :",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764474"
+        },
+        "options": {
+          "A": "1, 2 and 3",
+          "B": "1, 2 and 4",
+          "C": "1 and 2 only",
+          "D": "3 and 4 only"
+        }
+      },
+      {
+        "question_number": 136,
+        "question": "Which nutrient protects us from diseases?",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764553"
+        },
+        "options": {
+          "A": "Vitamin and minerals",
+          "B": "Fats and carbohydrates",
+          "C": "Protein",
+          "D": "All of these"
+        }
+      },
+      {
+        "question_number": 137,
+        "question": "In the given letter series what letter will come in place of the question Symbol.\nDIL, GLO, JOR, ?",
+        "source": {
+          "page": 49,
+          "source_question_id": "4335764868"
+        },
+        "options": {
+          "A": "MRV",
+          "B": "MRQ",
+          "C": "MRU",
+          "D": "NRO"
+        }
+      },
+      {
+        "question_number": 138,
+        "question": "B is the Aunt of C. A is the Husband of B. B is the sister of D. Tell how A is related to D?",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764903"
+        },
+        "options": {
+          "A": "Uncle",
+          "B": "Brother-in-Law",
+          "C": "Niece",
+          "D": "Son"
+        }
+      },
+      {
+        "question_number": 139,
+        "question": "The joint between separate faces of a solid is called an…...............",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764681"
+        },
+        "options": {
+          "A": "edge",
+          "B": "face",
+          "C": "vertex",
+          "D": "None of these"
+        }
+      },
+      {
+        "question_number": 140,
+        "question": "Which is the longest National Highway in India?",
+        "source": {
+          "page": 50,
+          "source_question_id": "4335764603"
+        },
+        "options": {
+          "A": "NH 5",
+          "B": "NH44",
+          "C": "NH10",
+          "D": "NH 15"
+        }
+      },
+      {
+        "question_number": 141,
+        "question": "Aaron weight 49 kg 357 g and Ron weights 32 kg 458 g. Who weighs less and by how\nmuch?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764723"
+        },
+        "options": {
+          "A": "Ron weighs less by 16 kg 899 g",
+          "B": "Aaron weighs less by 16 kg 899 g",
+          "C": "Ron weighs more by 16 kg 899 g",
+          "D": "Aaron weighs more by 16 kg 899 g"
+        }
+      },
+      {
+        "question_number": 142,
+        "question": "If we combine two consecutive triangular numbers, we get?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764751"
+        },
+        "options": {
+          "A": "Rational Number",
+          "B": "Whole Number",
+          "C": "Perfect Square",
+          "D": "Prime Number"
+        }
+      },
+      {
+        "question_number": 143,
+        "question": "Which of the following is a waterborne disease?",
+        "source": {
+          "page": 51,
+          "source_question_id": "4335764649"
+        },
+        "options": {
+          "A": "Measles",
+          "B": "malaria",
+          "C": "Lung disease",
+          "D": "Hepatitis"
+        }
+      },
+      {
+        "question_number": 144,
+        "question": "“Family is a unit consisting of a mother, father and their two children”. This statement\nis",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764503"
+        },
+        "options": {
+          "A": "incorrect, because the statement should specify that the children are biological",
+          "B": "incorrect, because there are many kinds of families and one cannot classify family as\nbeing of only one kind",
+          "C": "correct, since this is an ideal family size",
+          "D": "correct, because this is what all Indian families are like"
+        }
+      },
+      {
+        "question_number": 145,
+        "question": "If the median of the data 30,8,7,3,17,15,21,24,29,23 is x and the median of the data\nobtained by replacing 3 by 33 and 8 by 18 in the above data is y, then what is the\ndifference between y and x ?",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764770"
+        },
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "1"
+        }
+      },
+      {
+        "question_number": 146,
+        "question": "Choose the correct option instead of the question mark in the given question.\n456 : 15 :: 627 : ?",
+        "source": {
+          "page": 52,
+          "source_question_id": "4335764838"
+        },
+        "options": {
+          "A": "12",
+          "B": "15",
+          "C": "18",
+          "D": "21"
+        }
+      },
+      {
+        "question_number": 147,
+        "question": "In English alphabet which Letter is in between the Letter s and the Letter G ?",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764921"
+        },
+        "options": {
+          "A": "N",
+          "B": "M",
+          "C": "L",
+          "D": "P"
+        }
+      },
+      {
+        "question_number": 148,
+        "question": "Which of the following are macronutrients commonly found in soil?",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764576"
+        },
+        "options": {
+          "A": "Carbon, Hydrogen, Oxygen",
+          "B": "Nitrogen, Phosphorus, Potassium",
+          "C": "Iron, Manganese, Zinc",
+          "D": "Boron, Copper, Molybdenum"
+        }
+      },
+      {
+        "question_number": 149,
+        "question": "ABCD is a rhombus in which ∠ADB = 25 Degree. Then, the value of ( 2∠BAD - ∠ABC ) is\n:",
+        "source": {
+          "page": 53,
+          "source_question_id": "4335764790"
+        },
+        "options": {
+          "A": "230 Degree",
+          "B": "240 Degree",
+          "C": "210 Degree",
+          "D": "260 Degree"
+        }
+      },
+      {
+        "question_number": 150,
+        "question": "Globalization signifies which of the following :",
+        "source": {
+          "page": 56,
+          "source_question_id": "4335764433"
+        },
+        "options": {
+          "A": "Time-space compression",
+          "B": "The integration of the world economy",
+          "C": "The growth of supra- territorial relations between people",
+          "D": "All the above"
+        }
+      }
+    ]
   }
 ]
