@@ -10,14 +10,19 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_QUESTIONS_PATH = Path("parsed") / "questions.json"
+DEFAULT_QUESTIONS_DIR = Path("parsed")
 DEFAULT_RAW_DIR = Path("raw")
 DEFAULT_MARKDOWN_REPORT_PATH = Path("validated") / "question_validation_report.md"
 DEFAULT_JSON_REPORT_PATH = Path("validated") / "question_validation_report.json"
 
 PAGE_RE = re.compile(r"^={20} PAGE (?P<page>\d+) ={20}\s*$")
-EXPECTED_TOP_LEVEL_KEYS = {"source", "question", "options"}
-EXPECTED_SOURCE_KEYS = {"file", "page", "question_number", "source_question_id"}
+EXPECTED_TOP_LEVEL_KEYS = (
+    {"source", "question", "options"},
+    {"question_number", "source", "question", "options"},
+    {"source", "question", "options", "paper"},
+    {"question_number", "source", "question", "options", "paper"},
+)
+EXPECTED_SOURCE_KEYS = ({"file", "page", "question_number", "source_question_id"}, {"page", "source_question_id"})
 EXPECTED_OPTION_KEYS = {"A", "B", "C", "D"}
 SUSPICIOUS_MARKERS = ("�", "Â", "â€", "â€¦", "<br", "</", "&nbsp;")
 
@@ -46,14 +51,55 @@ class ValidationError(Exception):
     """Raised when validation inputs cannot be read."""
 
 
-def load_questions(path: Path) -> list[dict[str, Any]]:
+def load_questions_from_json(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         raise ValidationError(f"questions JSON does not exist: {path}")
 
     data = json.loads(path.read_text(encoding="utf-8"))
-    if not isinstance(data, list):
-        raise ValidationError("questions JSON must contain a top-level list")
-    return data
+
+    def attach_paper(question: dict[str, Any], paper: dict[str, Any] | None) -> dict[str, Any]:
+        loaded_question = dict(question)
+        if paper is not None and isinstance(paper, dict):
+            loaded_question.setdefault("paper", paper)
+        return loaded_question
+
+    if isinstance(data, dict):
+        questions = data.get("questions")
+        paper = data.get("paper") if isinstance(data.get("paper"), dict) else None
+        if not isinstance(questions, list):
+            raise ValidationError("questions JSON must contain a questions list")
+        return [attach_paper(question, paper) for question in questions if isinstance(question, dict)]
+
+    if isinstance(data, list):
+        if data and all(isinstance(item, dict) and "paper" in item and "questions" in item for item in data):
+            flattened: list[dict[str, Any]] = []
+            for item in data:
+                paper = item.get("paper") if isinstance(item.get("paper"), dict) else None
+                questions = item.get("questions")
+                if isinstance(questions, list):
+                    flattened.extend(attach_paper(question, paper) for question in questions if isinstance(question, dict))
+            return flattened
+
+        return data
+
+    raise ValidationError("questions JSON must contain a top-level list or paper/questions object")
+
+
+def load_questions(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        raise ValidationError(f"questions path does not exist: {path}")
+
+    if path.is_dir():
+        json_files = sorted(path.glob("*.json"))
+        if not json_files:
+            raise ValidationError(f"no questions JSON files found in {path}")
+
+        questions: list[dict[str, Any]] = []
+        for json_path in json_files:
+            questions.extend(load_questions_from_json(json_path))
+        return questions
+
+    return load_questions_from_json(path)
 
 
 def load_raw_pages(raw_dir: Path) -> dict[str, dict[int, str]]:
@@ -93,7 +139,9 @@ def compact_text(value: str) -> str:
 
 def source_context(question: dict[str, Any]) -> tuple[int | None, str | None, int | None]:
     source = question.get("source") if isinstance(question.get("source"), dict) else {}
-    number = source.get("question_number") if isinstance(source.get("question_number"), int) else None
+    number = question.get("question_number") if isinstance(question.get("question_number"), int) else None
+    if number is None and isinstance(source.get("question_number"), int):
+        number = source.get("question_number")
     source_id = source.get("source_question_id") if isinstance(source.get("source_question_id"), str) else None
     page = source.get("page") if isinstance(source.get("page"), int) else None
     return number, source_id, page
@@ -113,12 +161,12 @@ def validate_structure(index: int, question: Any) -> list[Finding]:
     number, source_id, page = source_context(question)
 
     actual_keys = set(question)
-    if actual_keys != EXPECTED_TOP_LEVEL_KEYS:
+    if actual_keys not in EXPECTED_TOP_LEVEL_KEYS:
         findings.append(
             Finding(
                 severity="error",
                 code="unexpected_top_level_keys",
-                message=f"Expected keys {sorted(EXPECTED_TOP_LEVEL_KEYS)}, found {sorted(actual_keys)}.",
+                message=f"Expected keys one of {[sorted(keys) for keys in EXPECTED_TOP_LEVEL_KEYS]}, found {sorted(actual_keys)}.",
                 question_number=number,
                 source_question_id=source_id,
                 page=page,
@@ -129,8 +177,9 @@ def validate_structure(index: int, question: Any) -> list[Finding]:
     if not isinstance(source, dict):
         findings.append(Finding("error", "missing_source", "Missing or invalid source object.", number, source_id, page))
     else:
-        missing_source = EXPECTED_SOURCE_KEYS - set(source)
-        extra_source = set(source) - EXPECTED_SOURCE_KEYS
+        expected_source_keys = EXPECTED_SOURCE_KEYS[0] if "file" in source else EXPECTED_SOURCE_KEYS[1]
+        missing_source = expected_source_keys - set(source)
+        extra_source = set(source) - expected_source_keys
         if missing_source or extra_source:
             findings.append(
                 Finding(
@@ -142,11 +191,16 @@ def validate_structure(index: int, question: Any) -> list[Finding]:
                     page,
                 )
             )
-        if not isinstance(source.get("file"), str) or not source.get("file"):
-            findings.append(Finding("error", "invalid_source_file", "source.file must be a non-empty string.", number, source_id, page))
-        if not isinstance(source.get("page"), int) or source.get("page", 0) <= 0:
+        paper = question.get("paper") if isinstance(question.get("paper"), dict) else {}
+        if "file" in source:
+            if not isinstance(source.get("file"), str) or not source.get("file"):
+                findings.append(Finding("error", "invalid_source_file", "source.file must be a non-empty string.", number, source_id, page))
+        elif not isinstance(paper.get("file"), str) or not paper.get("file"):
+            findings.append(Finding("error", "invalid_paper_file", "paper.file must be a non-empty string when source.file is absent.", number, source_id, page))
+
+        if "file" in source and (not isinstance(source.get("page"), int) or source.get("page", 0) <= 0):
             findings.append(Finding("error", "invalid_page", "source.page must be a positive integer.", number, source_id, page))
-        if not isinstance(source.get("question_number"), int) or source.get("question_number", 0) <= 0:
+        if "file" in source and (not isinstance(source.get("question_number"), int) or source.get("question_number", 0) <= 0):
             findings.append(
                 Finding("error", "invalid_question_number", "source.question_number must be a positive integer.", number, source_id, page)
             )
@@ -185,7 +239,8 @@ def validate_against_raw(question: dict[str, Any], raw_pages: dict[str, dict[int
     findings: list[Finding] = []
     number, source_id, page = source_context(question)
     source = question.get("source", {})
-    source_file = source.get("file")
+    paper = question.get("paper") if isinstance(question.get("paper"), dict) else {}
+    source_file = source.get("file") if isinstance(source.get("file"), str) else paper.get("file")
 
     if not isinstance(source_file, str) or not isinstance(page, int):
         return findings
@@ -379,8 +434,15 @@ def write_reports(report: dict[str, Any], markdown_path: Path, json_path: Path) 
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Validate finalized questions.json against source raw text.")
-    parser.add_argument("--questions", type=Path, default=DEFAULT_QUESTIONS_PATH, help="Path to parsed questions JSON.")
+    parser = argparse.ArgumentParser(description="Validate finalized questions JSON files against source raw text.")
+    parser.add_argument(
+        "--questions",
+        "--questions-dir",
+        dest="questions_path",
+        type=Path,
+        default=DEFAULT_QUESTIONS_DIR,
+        help="Path to a parsed questions JSON file or a directory of JSON files.",
+    )
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help="Directory containing source raw .txt files.")
     parser.add_argument("--markdown-report", type=Path, default=DEFAULT_MARKDOWN_REPORT_PATH, help="Human-readable report path.")
     parser.add_argument("--json-report", type=Path, default=DEFAULT_JSON_REPORT_PATH, help="Machine-readable report path.")
@@ -392,7 +454,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     try:
-        questions = load_questions(args.questions)
+        questions = load_questions(args.questions_path)
         raw_pages = load_raw_pages(args.raw_dir)
         report = validate_questions(questions, raw_pages)
         write_reports(report, args.markdown_report, args.json_report)

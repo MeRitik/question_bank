@@ -15,12 +15,38 @@ DEFAULT_REPORT_PATH = Path("validated") / "parse_report.md"
 DEFAULT_EXPECTED_QUESTIONS = 150
 
 PAGE_RE = re.compile(r"^={20} PAGE (?P<page>\d+) ={20}\s*$")
+PAPER_PREFIX_RE = re.compile(
+    r"^(?P<base>.+?)-Class-\d+-\d+-(?P<subject>.+?)-Official-(?P<paper>.+)$"
+)
+PAPER_DATE_RE = re.compile(
+    r"^(?P<day>\d{2})-(?P<month>[A-Za-z]{3})-(?P<year>\d{4})-Shift-(?P<shift>\d+)-(?P<language>[A-Za-z]+)$"
+)
 QUESTION_RE = re.compile(r'^"?\s*Q\.(?P<number>\d+)(?:\s+(?P<text>.*))?\s*$')
 OPTION_RE = re.compile(r"^(?P<label>[A-D])\.\s*(?P<text>.*)$")
 METADATA_RE = re.compile(
     r"^(?P<key>Question Type|Question ID|Option [1-4] ID|Status|Chosen Option)"
     r"\s*:\s*(?P<value>.*)$"
 )
+
+MONTHS = {
+    "Jan": 1,
+    "Feb": 2,
+    "Mar": 3,
+    "Apr": 4,
+    "May": 5,
+    "Jun": 6,
+    "Jul": 7,
+    "Aug": 8,
+    "Sep": 9,
+    "Oct": 10,
+    "Nov": 11,
+    "Dec": 12,
+}
+
+LANGUAGE_ALIASES = {
+    "Eng": "English",
+    "Hin": "Hindi",
+}
 
 
 class ParseError(Exception):
@@ -41,6 +67,35 @@ class QuestionStart:
     question_label: str
     inline_text: str
     consumed_lines: int
+
+
+def parse_paper_metadata(raw_path: Path) -> dict[str, Any]:
+    try:
+        prefix, date_suffix = raw_path.stem.split("-Held-On_-", 1)
+    except ValueError:
+        raise ParseError(f"raw file name does not match expected pattern: {raw_path.name}")
+
+    prefix_match = PAPER_PREFIX_RE.match(prefix)
+    date_match = PAPER_DATE_RE.match(date_suffix)
+
+    if not prefix_match or not date_match:
+        raise ParseError(f"raw file name does not match expected pattern: {raw_path.name}")
+
+    month = date_match.group("month")
+    if month not in MONTHS:
+        raise ParseError(f"unsupported month in raw file name: {raw_path.name}")
+
+    language = date_match.group("language")
+
+    return {
+        "file": raw_path.name,
+        "year": int(date_match.group("year")),
+        "exam_date": f"{date_match.group('year')}-{MONTHS[month]:02d}-{date_match.group('day')}",
+        "shift": int(date_match.group("shift")),
+        "paper": prefix_match.group("paper").replace("-", " "),
+        "subject": prefix_match.group("subject").replace("-", " "),
+        "language": LANGUAGE_ALIASES.get(language, language),
+    }
 
 
 def read_raw_lines(raw_path: Path) -> list[ParsedRawLine]:
@@ -124,7 +179,6 @@ def join_preserved(lines: list[str]) -> str:
 
 
 def parse_question_block(
-    raw_path: Path,
     start: QuestionStart,
     block_lines: list[str],
 ) -> tuple[dict[str, Any], list[str]]:
@@ -208,13 +262,12 @@ def parse_question_block(
         )
 
     question = {
+        "question_number": start.question_number,
+        "question": join_preserved(question_lines),
         "source": {
-            "file": raw_path.name,
             "page": start.page,
-            "question_number": start.question_number,
             "source_question_id": metadata.get("Question ID"),
         },
-        "question": join_preserved(question_lines),
         "options": {
             label: options[label]
             for label in ("A", "B", "C", "D")
@@ -228,10 +281,11 @@ def parse_question_block(
 def parse_raw_file(
     raw_path: Path,
     max_questions: int = DEFAULT_EXPECTED_QUESTIONS,
-) -> tuple[list[dict[str, Any]], list[str]]:
+) -> tuple[dict[str, Any], list[dict[str, Any]], list[str]]:
 
     lines = read_raw_lines(raw_path)
     starts = find_question_starts(lines)
+    paper = parse_paper_metadata(raw_path)
 
     questions: list[dict[str, Any]] = []
     warnings: list[str] = []
@@ -254,7 +308,6 @@ def parse_raw_file(
         ]
 
         question, block_warnings = parse_question_block(
-            raw_path,
             start,
             block_lines,
         )
@@ -263,10 +316,10 @@ def parse_raw_file(
         warnings.extend(block_warnings)
 
     questions.sort(
-        key=lambda item: item["source"]["question_number"]
+        key=lambda item: item["question_number"]
     )
 
-    return questions, warnings
+    return paper, questions, warnings
 
 
 def validation_counts(
@@ -422,7 +475,7 @@ def render_validation_report(
 
 
 def write_outputs(
-    questions: list[dict[str, Any]],
+    payload: dict[str, Any] | list[dict[str, Any]],
     report: str,
     output_path: Path,
     report_path: Path,
@@ -440,7 +493,7 @@ def write_outputs(
 
     output_path.write_text(
         json.dumps(
-            questions,
+            payload,
             ensure_ascii=False,
             indent=2,
         ) + "\n",
@@ -547,6 +600,7 @@ def main(argv: list[str] | None = None) -> int:
             args.raw_dir,
         )
 
+        paper_payloads: list[dict[str, Any]] = []
         all_questions: list[dict[str, Any]] = []
         all_warnings: list[str] = []
         file_results: list[dict[str, Any]] = []
@@ -555,9 +609,16 @@ def main(argv: list[str] | None = None) -> int:
 
             print(f"Parsing: {raw_file.name}")
 
-            questions, warnings = parse_raw_file(
+            paper, questions, warnings = parse_raw_file(
                 raw_file,
                 max_questions=args.expected,
+            )
+
+            paper_payloads.append(
+                {
+                    "paper": paper,
+                    "questions": questions,
+                }
             )
 
             counts = validation_counts(
@@ -597,7 +658,7 @@ def main(argv: list[str] | None = None) -> int:
         )
 
         write_outputs(
-            all_questions,
+            paper_payloads[0] if len(paper_payloads) == 1 else paper_payloads,
             report,
             args.output,
             args.report,
